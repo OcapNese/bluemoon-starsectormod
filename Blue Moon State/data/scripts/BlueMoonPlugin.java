@@ -32,8 +32,8 @@ public class BlueMoonPlugin extends BaseModPlugin {
 				"condilar",
 				"star_yellow",
 				700,
-				45427,
-				32750,
+				25427,
+				17750,
 				500);
 
 		SectorEntityToken buoy = system.addCustomEntity("condilar_buoy", // unique id
@@ -264,7 +264,7 @@ public class BlueMoonPlugin extends BaseModPlugin {
 				star,
 				StarAge.AVERAGE, //Let's try old system entities this time.
 				6, 9, //Let's allow for the possibility of no new entities after Aaarg.
-				Seduveren.getCircularOrbitRadius() + 600, //Here we grab Steam's orbit radius to figure out where to start adding from.
+				ethoi.getCircularOrbitRadius() + 600, //Here we grab Steam's orbit radius to figure out where to start adding from.
 				system.getPlanets().size(), //Let's start naming planets based off the number of planets already in this location.
 				false); // Again, let's use generic planet names.
 
