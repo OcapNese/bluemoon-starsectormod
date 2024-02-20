@@ -1,0 +1,21 @@
+{
+  "designTypeColors": {
+    "Bluemoon Shipyards": [
+      0,
+      255,
+      185,
+      255
+    ]
+  },
+  "graphics": {
+    "blueprint_packages": {
+      "bluemoon_package_bp": "graphics/icons/cargo/bluemoon_package_bp.png"
+    },
+
+    "characters": {
+      "bluemoon_ast": "graphics/portraits/characters/portrait_bluemoon_ast.png",
+	  
+	  "bluemoon_ocp": "graphics/portraits/characters/portrait_bluemoon_Ocp.png"
+    },
+  }
+}

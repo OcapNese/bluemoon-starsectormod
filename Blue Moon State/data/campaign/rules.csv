@@ -1,0 +1,88 @@
+id,trigger,conditions,script,text,options,notes
+BMS_AstAskForSupplies,PopulateOptions,"$market.id == Moonial_market
+$postId == factionLeader",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
+BMS_AstAskForSuppliesOption,DialogOptionSelected,$option == BMS_AstAskForSupplies,"AddRemoveCommodity supplies 20
+$gavePlayerFreeSupplies = true 3
+FireAll PopulateOptions","""Oh you need more, i don’t have access to the storage but I can give a bit of my personal stash. Onwards to adventure fellow explorer.""",,
+BMS_AstAskForSuppliesDenied,DialogOptionSelected,"$gavePlayerFreeSupplies
+$option == BMS_AstAskForSupplies",,"""Captain, you want more? that’s greedy. Let’s see how much you want it, Come over here, i have a use for your mouth""","1:BMS_Beggingforit:”Go down into his house” 
+2:BMS_notsure:""I would rather not.""",
+BMS_Beggingforit,DialogOptionSelected,$option == BMS_Beggingforit,"AddRemoveCommodity supplies 50
+$gavePlayerBigLoad = True 30
+FireAll PopulateOptions","Your shuttle goes down into the planet and towards the Grandmaster’s house. As you enter his residence, you realize he kind of has all the power here.
+You don’t get a lot of time to think about it as the moment you’re in his room, you find yourself on your knees giving an enthusiastic service to the master of this planet.
+""Good one,seems you know your place slut."" Ast smirks full of unbridled confidence ""How does it feel to choke on my fat cock?""
+He finishes the quickie and sends you back.
+Atleast you got your supplies",,
+BMS_notsure,DialogOptionSelected,$option == BMS_notsure,FireAll PopulateOptions,"""Your loss""",,
+,,,,,,
+BMS_thatsenough,DialogOptionSelected,$option == BMS_thatsenough,DismissDialog,,,
+BMS_wait,DialogOptionSelected,$option == BMS_wait,FireAll PopulateOptions,"Ast reappears on the monitor ""Yes, Captain, at your service what do you want?"" He seems oddly tired.
+
+OR
+
+The comms resolve to show Ast doing a complicated manouver as he jumps over his desk to make a entrance. ""Channel clear, go ahead.""",,
+convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
+$market.id == Moonial_market
+$postId == factionLeader","$contact_printedFirstReturnGreeting = false
+ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, that would force throught and allow you see audio and video. Should you press it?","1:BMS_wait:Wait to the sound of static
+2:BMS_Asthack:Big Red Shiny Button!
+3:BMS_thatsenough:I am out, cutt comms",
+,,,FireAll PopulateOptions,"
+",,
+BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the Grandmaster having some fun with a particularly large phallic toy. Ast is giving it quite the risky show.He becomes red as firework when he realizes his camera is on. You can see him scream to his subordinate and throw a towel over himself, as he shuts down the camera.","1:BMS_Astpekaboo:Wait, for him to be ready.",
+BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service what do you want?"" He seems oddly calm.",,
+BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, no other positions have been implemented.","1:BMS_AstSexTop:That’s fine with me.
+2:BMS_AstSexTop_Nop:Later.",
+BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,FireAll PopulateOptions,"He pounds into his bed, making sure you feel every little tremor of his balls on your ass, making use of his amazing stamina to drill into you all night long, he even lets you wake up with a free breakfast the next day.
+He is not here, he is a busy man after all.",,
+BMS_bqfsAskForSuppliesDeniedBigLoad,DialogOptionSelected,"$gavePlayerBigLoad
+$option == BMS_AstAskForSupplies","$saidAlreadyGaveSupplies = True 6
+FireAll PopulateOptions","""Captain, I know you want more of me, but I had my fill of blowjobs""",,
+BMS_AstSex?,PopulateOptions,"$market.id == Moonial_market
+$postId == factionLeader",,,"1:BMS_AstSex:""Wanna have sex?""",
+BMS_AstMaster?,PopulateOptions,"$market.id == Moonial_market
+$postId == factionLeader",,,"1:BMS_masteranswer:""Can i be your master?""",
+BMS_masteranswer,DialogOptionSelected,"$Masterquestionasked == false
+$option == BMS_masteranswer","AddPotentialContact Ast
+$Masterquestionasked = true","Ast looks at you for a second, then shakes his head ""No, but i can give you my personal coms""",,
+BMS_masteranswerrepeat,DialogOptionSelected,"$Masterquestionasked == true
+$option == BMS_masteranswer",SetEnabled BMS_AstMaster? False,"Ast puffs a bit, and makes his best to look annoyed
+""I already told you, you are not getting it""",,
+BMS_AstAskForSuppliesAskedAlready,PopulateOptions,$saidAlreadyGaveSupplies,"$SaidAlreadyGaveSupplies = true 0
+SetEnabled BMS_AstAskForSupplies false","""So no more supplies for a bit""",,
+BMS_AstSexTop_Nop,DialogOptionSelected,$option == BMS_AstSexTop_Nop,FireAll PopulateOptions,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#Ocp,,,,,,
+BMS_Ocp_Dialogue,PopulateOptions,"$market.id == seduveren_market
+$id==BMS_Ocp",,,"1:BMS_Ocp_Hi:""Make ships better?""
+2:BMS_Ocp_Hit:Violence",
+BMS_Ocp_Hi,DialogOptionSelected,$option == BMS_Ocp_Hi,,"""I don’t know how, I am still learning""",,
+BMS_Ocp_hit,DialogOptionSelected,$option == BMS_Ocp_Hit,,"""Ouch, jerk""",,
+,,,,,,
+BMS_Ocp_Grettings,PickGreeting,"$market.id == seduveren_market
+$id==BMS_Ocp","ShowPersonVisual
+FireAll PopulateOptions ","""Hi, it is me Ocp, the Bluemoon Shipyards Designer""",,
+,,,,,,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelCooperative,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == blue_moon",,"You are known by the Order Grandmaster itself,  $theFaction recognizes you as a charitable soul, high-level officials are looking to network with a condecorated hero of the States. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",,
+relLevelFriendly,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == blue_moon",,"You're relatively well-known within $theFaction, whether in person or by reputation. Most members of the Order will come to your aid, as a fellow spacer.",,
+relLevelWelcoming,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == blue_moon",,"You have a benefactor in $theFaction, seeing how much you have done in their stead. Harassing you is therefore a more risky endeavor for local patrol commanders.",,
+relLevelFavorable,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == blue_moon",,"The $faction officials tend to view you favorably, though this has little in the way of implications. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.",,
+relLevelNeutral,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == blue_moon",,"You're not generally well known by $faction officials, for good or ill.",,
+relLevelSuspicious,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == blue_moon",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. Link access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently.",,
+relLevelInhospitable,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == blue_moon",,"Suspicions have risen to an actionable level. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
+relLevelHostile,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == blue_moon",,"$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. The Knights have posted a caution phamplet for travelers with your face and name in bold red.",,
+relLevelVengeful,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == blue_moon",,"You can find a holo of your face with clown makeup and somebody giving you a wedgie in almost every planet, doctored for sure. Ast has actually taken note of much of a jerk you are, so he is a bit dissapointed. The Order has a private betting ring going for who gets your head.",,

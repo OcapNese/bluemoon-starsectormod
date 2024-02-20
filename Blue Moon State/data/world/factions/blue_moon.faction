@@ -1,0 +1,338 @@
+{
+	id:"blue_moon",
+	"color":[0, 255, 185,255],
+	"displayName":"Blue Moon",
+	"displayNameWithArticle":"the Blue Moon",
+	"displayNameLong":"Blue Moon Free States",
+	"displayNameLongWithArticle":"the Blue Moon Free States",
+	"logo":"graphics/factions/bluemoon.png",
+	"crest":"graphics/factions/bluemoon_crest.png",
+	"shipNamePrefix":"BMS",
+	"shipNameSources":{
+		"BRITISH_NAVY":2,
+		"ROMAN":1,
+		"GREEK":1,
+		"JAPANESE":1,
+		"EGYPTIAN":1,
+		"NORDIC":1,
+		"SPACE":2,
+		"GENERAL":2,
+	},
+	"names":{
+		"modern":2,
+		"world":2,
+		"future":1,
+		"myth":3,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	#multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		"bluemoon_package_bp":1.5,
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["bluemoon","bluemoon_package_bp","base_bp",],
+		"hulls":[
+			"cerberus",
+			"crig",
+			"ox",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"shepherd",
+			"mule",
+			"venture",
+			"mudskipper",
+			"tarsus",
+			"buffalo",
+			"hammerhead",
+			
+			"kite",
+			"wolf",
+			"lasher",
+			"centurion",
+			"gremlin",
+			
+			"condor",
+			"falcon_p",
+			"eradicator_pirates",
+			
+			"eagle",
+			"falcon",
+			"mora",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	# listing capitals as priority will make them be picked even when they're the wrong "type" re: warship/carrier/phase ship
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp","bluemoon","bluemoon_bp"],
+		"fighters":[
+			"broadsword_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["standard","independent","bluemoon","bluemoon_bp","base_bp", "lowtech_bp","missile_bp",],
+		"weapons":[
+			"pdlaser",
+			"taclaser",
+			"ioncannon",
+			"irpulse",
+			"lrpdlaser",
+			"pdburst",
+			"amblaster",
+			
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			
+			"plasma",
+			"hil",
+			"autopulse",
+			
+			
+			"reaper",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"harpoonpod",
+			"breachpod",
+			"sabotpod",
+			"salamanderpod",
+			"phasecl",
+			"typhoon",
+			
+			"railgun",
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "independents",],
+		"hullMods":[
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+	"weaponSellFrequency":{
+		"amblaster":5,
+		"ioncannon":5,
+		
+		"gravitonbeam":5,
+		"phasebeam":5,
+		"pulselaser":5,
+		"heavyblaster":10,
+		"ionpulser":10,
+		"ionbeam":5,
+		
+		"hil":5,
+		"guardian":5,
+		"plasma":10,
+		"autopulse":10,
+		"tachyonlance":10,
+		
+		"atropos":5,
+		"breachpod":5,
+		"typhoon":5,
+		
+		"cyclone":5,
+		"squall":10,
+		"locust":10,
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+		"adaptive_coils":10,
+		"phase_anchor":10,
+		"hardenedshieldemitter":10,
+		"pointdefenseai":10,
+		"hiressensors":10,
+	},		
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":3,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.3,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.4,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.7,
+
+		"officerSkillsShuffleProbability":1,
+		"officerSkills":[
+			"support_doctrine",
+			"field_modulation",
+		],
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"target_analysis",
+			"systems_expertise",
+			"electronic_warfare",
+		],
+	},
+	"illegalCommodities":[
+			"drugs",
+	],
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+	"internalComms":"tritachyon_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_bluemoon_chaldea01.png",
+            "graphics/portraits/portrait_bluemoon_chaldea02.png",
+            "graphics/portraits/portrait_bluemoon_chaldea03.png",
+            "graphics/portraits/portrait_bluemoon_chaldea05.png",
+            "graphics/portraits/portrait_bluemoon_chaldea06.png",
+            "graphics/portraits/portrait_bluemoon_ast.png",
+			"graphics/portraits/portrait_bluemoon_couches.png",
+			"graphics/portraits/portrait_bluemoon_solda.png",
+			],
+		"standard_female":[
+			"graphics/portraits/portrait_bluemoon_chaldea04.png",
+        	"graphics/portraits/portrait_bluemoon_chaldea07.png",
+        	"graphics/portraits/portrait_bluemoon_servant01.png",
+        	"graphics/portraits/portrait_bluemoon_couches.png",
+        	"graphics/portraits/portrait_bluemoon_solda.png",
+			],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Security Force Commander"},
+			"spaceCommander":{"name":"Team Leader"},
+			"factionLeader":{"name":"Secretary General Director"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Order Grandmaster"},
+			"patrolCommander":{"name":"Knight Crusader Leader"},
+			"fleetCommander":{"name":"Senior Knight Commander"},
+			"baseCommander":{"name":"Base Director"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"business":10,
+		},
+		"HIGH":{
+			"business":10,
+			"aristo":2,
+			"scientist":10,
+		},
+	},		
+
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2.0,
+		"AICoreRepMult":4.0,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+        "willTradeWhenHostile":true,
+		"exemptFromFoodShortages":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"Supply Expedition",
+		"tradeLiner":"Official Trade Detachement",
+		"tradeSmuggler":"Independant Trade Contractor",
+		"smallTrader":"Trade Auxiliary",
+		
+		"patrolSmall":"Security Team",
+		"patrolMedium":"Operational Security Group",
+		"patrolLarge":"Guardian Spirit Fleet",
+		
+		"inspectionFleet":"Peacekeeping Task Force",
+		"taskForce":"Grand Order Force",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		#"mercScout":"Auxiliary Scout",
+		"mercBountyHunter":"Auxiliary Deputy",
+		"mercPrivateer":"Security Auxiliary",
+		#"mercPatrol":"Auxiliary Patrol",
+		#"mercArmada":"Auxiliary Armada",
+	}
+}
+

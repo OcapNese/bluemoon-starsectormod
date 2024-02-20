@@ -1,0 +1,47 @@
+{
+  "id": "bluemoon_lampe",
+  "specClass": "projectile",
+  "projectileSpecId": "bluemoon_gouda",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 750,
+  "turretSprite": "graphics/weapons/bluemoon_lampe_turret_base.png",
+  "turretGunSprite": "graphics/weapons/bluemoon_lampe_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/bluemoon_lampe_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/bluemoon_lampe_hardpoint_recoil.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    13,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    28,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 20,
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "particleDuration": 0.5,
+    "particleCount": 20,
+    "particleColor": [
+      255,
+      225,
+      225,
+      235
+    ]
+  },
+  "fireSoundTwo": "autocannon_fire"
+}

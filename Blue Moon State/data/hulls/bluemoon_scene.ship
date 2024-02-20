@@ -1,0 +1,75 @@
+{
+  "hullName": "War Scenario",
+  "hullId": "bluemoon_scene",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/bluemoon/bluemoon_scenario.png",
+  "style": "LOW_TECH",
+  "height": 66,
+  "width": 82,
+  "center": [41, 33],
+  "collisionRadius": 38,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0003": "bluemoon_tv"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-7.5, 16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-7.5, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 45,
+      "locations": [13, 20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -45,
+      "locations": [12, -21]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    29.5, -30.5,
+    -27, -28.5,
+    -27, 28.5,
+    29.5, 30.5
+  ]
+}

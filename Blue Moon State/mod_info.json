@@ -1,0 +1,10 @@
+{
+	"id": "Ocap_Bluemoon",
+	"name": "Blue Moon States",
+	"author": "Ocap",
+	"version": "0.1 prerelease",
+	"description": "My Super Cool Mod (original work DO NOT STEAL)",
+	"gameVersion":"0.97a-RC7",
+	"modPlugin":"data.scripts.BlueMoonPlugin",
+	"jars":["jars/bluemoon.jar"],
+}
