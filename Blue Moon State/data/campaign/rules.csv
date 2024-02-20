@@ -34,11 +34,13 @@ BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the 
 BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service what do you want?"" He seems oddly calm.",,
 BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, no other positions have been implemented.","1:BMS_AstSexTop:That’s fine with me.
 2:BMS_AstSexTop_Nop:Later.",
-BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,FireAll PopulateOptions,"He pounds into his bed, making sure you feel every little tremor of his balls on your ass, making use of his amazing stamina to drill into you all night long, he even lets you wake up with a free breakfast the next day.
+BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,FireAll PopulateOptions,"He pounds into his bed, making sure you feel every little tremor of his balls on your ass, making use of his amazing stamina to drill into you all night long,
+He even lets you wake up with a free breakfast the next day.
 He is not here, he is a busy man after all.",,
 BMS_bqfsAskForSuppliesDeniedBigLoad,DialogOptionSelected,"$gavePlayerBigLoad
 $option == BMS_AstAskForSupplies","$saidAlreadyGaveSupplies = True 6
-FireAll PopulateOptions","""Captain, I know you want more of me, but I had my fill of blowjobs""",,
+FireAll PopulateOptions","""Captain, I know you want more of me, but I had my fill of blowjobs"" Ast scoffs at you.
+""So no more supplies for a bit""",,
 BMS_AstSex?,PopulateOptions,"$market.id == Moonial_market
 $postId == factionLeader",,,"1:BMS_AstSex:""Wanna have sex?""",
 BMS_AstMaster?,PopulateOptions,"$market.id == Moonial_market
@@ -50,7 +52,7 @@ BMS_masteranswerrepeat,DialogOptionSelected,"$Masterquestionasked == true
 $option == BMS_masteranswer",SetEnabled BMS_AstMaster? False,"Ast puffs a bit, and makes his best to look annoyed
 ""I already told you, you are not getting it""",,
 BMS_AstAskForSuppliesAskedAlready,PopulateOptions,$saidAlreadyGaveSupplies,"$SaidAlreadyGaveSupplies = true 0
-SetEnabled BMS_AstAskForSupplies false","""So no more supplies for a bit""",,
+SetEnabled BMS_AstAskForSupplies false",,,
 BMS_AstSexTop_Nop,DialogOptionSelected,$option == BMS_AstSexTop_Nop,FireAll PopulateOptions,,,
 ,,,,,,
 ,,,,,,

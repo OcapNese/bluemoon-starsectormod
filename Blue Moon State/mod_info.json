@@ -2,9 +2,9 @@
 	"id": "Ocap_Bluemoon",
 	"name": "Blue Moon States",
 	"author": "Ocap",
-	"version": "0.1 prerelease",
-	"description": "My Super Cool Mod (original work DO NOT STEAL)",
-	"gameVersion":"0.97a-RC7",
+	"version": "0.2 First Release",
+	"description": "Adds a dumb faction and basic perverted stuff",
+	"gameVersion":"0.97a-RC11",
 	"modPlugin":"data.scripts.BlueMoonPlugin",
 	"jars":["jars/bluemoon.jar"],
 }
