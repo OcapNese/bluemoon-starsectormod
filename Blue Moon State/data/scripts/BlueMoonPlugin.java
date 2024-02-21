@@ -226,9 +226,9 @@ public class BlueMoonPlugin extends BaseModPlugin {
 		seduveren_market.addIndustry(Industries.SPACEPORT);
 		seduveren_market.addIndustry(Industries.FARMING);
 
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		{
 			PersonAPI Ocp = Global.getFactory().createPerson();
 			Ocp.getName().setFirst("Ocp");
