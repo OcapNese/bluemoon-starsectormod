@@ -1,0 +1,63 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Rogue",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{
+        "hegemony":-0.6,
+        "luddic_church":0.7,
+        "persean":-0.5,
+        "sindrian_diktat":0.3,
+		"blue_moon": 0.8,
+    },
+
+    "morality":"inmoral",
+
+    "diplomacyTraits":["stalwart",],
+
+    "alignments":{
+            "corporate":-0.5,
+            "technocratic":0.3,
+            "militarist":0.8,
+            "diplomatic":-0.5,
+            "ideological":0.8,
+    },
+	"colonyExpeditionChance":0.85,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+	
+	"factionIdForHqResponse":"oda_clan",
+    "specialForcesMaxFleets":1,
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.FactionListNamer",
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"], "weight":0.5},
+    ],
+	
+    "isPirateNeutral":false,
+
+    "vengeanceLevelNames":["Retaliation", "Warband", "Heavenly Conquest"],
+    "vengeanceFleetNames":["Retaliation", "Warband", "Heavenly Conquest"],
+    "vengeanceFleetNamesSingle":["a Retaliation Fleet", "a Warband", "a Heavenly Conquest"],
+
+        "startSpecialItems":[
+        [["low_tech_package", "pirate_package"]],
+    ],
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.2},
+        {"id":"militarybase", "mult":0.4},
+        {"id":"fuelprod", "mult":0.08},
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}
