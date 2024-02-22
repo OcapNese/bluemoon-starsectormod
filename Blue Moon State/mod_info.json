@@ -2,7 +2,7 @@
 	"id": "Ocap_Bluemoon",
 	"name": "Blue Moon States",
 	"author": "Ocap",
-	"version": "0.2 First Release",
+	"version": "0.0.3 First Release",
 	"description": "Adds a dumb faction and basic perverted stuff",
 	"gameVersion":"0.97a-RC11",
 	"modPlugin":"data.scripts.BlueMoonPlugin",
