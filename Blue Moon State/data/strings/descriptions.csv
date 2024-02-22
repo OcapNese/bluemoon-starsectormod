@@ -1,7 +1,11 @@
 id,type,text1,text2,text3,notes
+#Bluemoon states,,,,,
+,,,,,
 blue_moon,FACTION,"The Bluemoon States are a isolated conglomeration of outcasts and ex-mercenaries, they serve as a reffuge of the desesperate and downtrodden.
 They are under the leadership of a exiled knight of the Order of Ludd “Ast”, who claims to have talked to saints, thus ensuring his expulsion and eventual crusade out into the outer reaches of the sector and the founding of the Bluemoon.
 Ties with pirate contacts and his heretical comdemnation doesn’t earn him a lot of friends within the major players of the sector.",,,
+oda_clan,FACTION,"The (Self Proclaimed) Heavenly Emperor Demon King Oda Nobunaga has come to present his claim on the sector!
+May the Gods be mercyful!",,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -26,9 +30,6 @@ Ties with pirate contacts and his heretical comdemnation doesn’t earn him a lo
 ,,,,,
 ,,,,,
 ,,,,,
-,,,,,
-,,,,,
-,,,,,# I DUNNO
 ,,,,,
 ,,,,,
 # NOTE,,# HOVER OVER PLANET,,,

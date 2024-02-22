@@ -1,20 +1,15 @@
 {
-	id:"blue_moon",
-	"color":[0, 255, 185,255],
-	"displayName":"Blue Moon",
-	"displayNameWithArticle":"the Blue Moon",
-	"displayNameLong":"Blue Moon Free States",
-	"displayNameLongWithArticle":"the Blue Moon Free States",
-	"logo":"graphics/factions/bluemoon.png",
-	"crest":"graphics/factions/bluemoon_crest.png",
-	"shipNamePrefix":"BMS",
+	id:"oda_clan",
+	"color":[208, 79, 0,255],
+	"displayName":"Oda Clan",
+	"displayNameWithArticle":"the Oda Clan",
+	"displayNameLong":"Oda War Clans",
+	"displayNameLongWithArticle":"the Oda Warring Clans",
+	"logo":"graphics/factions/OdaClans.png",
+	"crest":"graphics/factions/OdaClans_crest.png",
+	"shipNamePrefix":"ODA",
 	"shipNameSources":{
-		"BRITISH_NAVY":2,
-		"ROMAN":1,
-		"GREEK":1,
-		"JAPANESE":1,
-		"EGYPTIAN":1,
-		"NORDIC":1,
+		"JAPANESE":4,
 		"SPACE":2,
 		"GENERAL":2,
 	},
@@ -42,7 +37,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["bluemoon","bluemoon_package_bp","base_bp",],
+		"tags":["pirate","base_bp","hegemony"],
 		"hulls":[
 			"cerberus",
 			"crig",
@@ -92,7 +87,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["standard","independent","bluemoon","bluemoon_bp","base_bp", "lowtech_bp","missile_bp",],
+		"tags":["standard","pirates","bluemoon","bluemoon_bp","base_bp", "lowtech_bp","missile_bp",],
 		"weapons":[
 			"pdlaser",
 			"taclaser",
@@ -146,7 +141,7 @@
 		],
 	},
 	"knownHullMods":{
-		"tags":["standard", "independents",],
+		"tags":["standard", "independents","hegemony",],
 		"hullMods":[
 			"autorepair",
 			"converted_hangar",
@@ -209,20 +204,20 @@
 	"factionDoctrine":{
 		"warships":4,
 		"carriers":2,
-		"phaseShips":1,
+		"phaseShips":2,
 		
-		"officerQuality":3,
-		"shipQuality":3,
-		"numShips":2,
+		"officerQuality":5,
+		"shipQuality":2,
+		"numShips":1,
 		
 		"shipSize":4,
 		
-		"aggression":3,
+		"aggression":4,
 		
-		"combatFreighterProbability":0.3,     				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0.4,  				# as part of the normal combat lineup
+		"combatFreighterProbability":0.1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.1,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":0,# as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.7,
+		"autofitRandomizeProbability":0.2,
 
 		"officerSkillsShuffleProbability":1,
 		"officerSkills":[
@@ -251,87 +246,100 @@
 	"internalComms":"tritachyon_internal",
 	"portraits":{
 		"standard_male":[
-			"graphics/portraits/portrait_bluemoon_chaldea01.png",
-            "graphics/portraits/portrait_bluemoon_chaldea02.png",
-            "graphics/portraits/portrait_bluemoon_chaldea03.png",
-            "graphics/portraits/portrait_bluemoon_chaldea05.png",
-            "graphics/portraits/portrait_bluemoon_chaldea06.png",
-			"graphics/portraits/portrait_bluemoon_couches.png",
-			"graphics/portraits/portrait_bluemoon_solda.png",
-			"graphics/portraits/portrait_bluemoon_servant02.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_BigNobbu.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Cú-Nobu.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Golden.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_GoldKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_SilverKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_BronzeKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Imperial.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Tank.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_UFO.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Nobusengumi.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Kabuki.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Silver.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_SilverMecha.png",
+			
 			],
 		"standard_female":[
-			"graphics/portraits/portrait_bluemoon_chaldea04.png",
-        	"graphics/portraits/portrait_bluemoon_chaldea07.png",
-        	"graphics/portraits/portrait_bluemoon_couches.png",
-        	"graphics/portraits/portrait_bluemoon_solda.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_BigNobbu.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Cú-Nobu.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Golden.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_GoldKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_SilverKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_BronzeKyojin.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Imperial.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Tank.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_UFO.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Nobusengumi.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Kabuki.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_Silver.png",
+			"graphics/portraits/Portrait_Bluemoon_Nobbu_SilverMecha.png",
 			],
 	},
 	"ranks":{
 		"ranks":{
-			"spaceAdmiral":{"name":"Security Force Commander"},
-			"spaceCommander":{"name":"Team Leader"},
-			"factionLeader":{"name":"Secretary General Director"},
+			"spaceAdmiral":{"name":"Nobbu Admiral"},
+			"spaceCommander":{"name":"Nobbu Commander"},
+			"factionLeader":{"name":"Ruler of Heaven"},
 		},
 		"posts":{
-			"factionLeader":{"name":"Order Grandmaster"},
-			"patrolCommander":{"name":"Knight Crusader Leader"},
-			"fleetCommander":{"name":"Senior Knight Commander"},
-			"baseCommander":{"name":"Base Director"},
+			"factionLeader":{"name":"Ruler of Heaven"},
+			"patrolCommander":{"name":"Nobbu Patrol Leader"},
+			"fleetCommander":{"name":"Senior Nobbu Commander"},
+			"baseCommander":{"name":"Castle Manager"},
 		},
 	},
 	"voices":{
 		"LOW":{
-			"soldier":10,
-			"spacer":5,
+			"soldier":3,
+			"spacer":10,
 		},
 		"MEDIUM":{
-			"business":10,
+			"soldier":5,
+			"spacer":10,
 		},
 		"HIGH":{
-			"business":10,
-			"aristo":2,
-			"scientist":10,
+			"soldier":5,
+			"spacer":10,
+			"villain":10,
 		},
-	},		
-
+	},	
 	"custom":{
-		"offersCommissions":true,
-		"engagesInHostilities":true,
-		"buysAICores":true,
-		"AICoreValueMult":2.0,
-		"AICoreRepMult":4.0,
-		"buysSurveyData":true,
-		"hostilityImpactOnGrowth":true,
-        "willTradeWhenHostile":true,
+		"decentralized":true,
+		"engageWhenEvenStrength":true,
 		"exemptFromFoodShortages":true,
+		"willTradeWhenHostile":true,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"offerMissionsWhenHostile":true,
+		"allowsTransponderOffTrade":true,
+		"pirateBehavior":true, # for fleet behavior
+		"makesPirateBases":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"pirateBaseStationTypes":{
+			"orbitalstation":5,
+			"orbitalstation_mid":8,
+			"orbitalstation_high":7,
+		},
 		"punitiveExpeditionData":{
-			"vsCompetitors":true,
+			"vsCompetitors":false,
 			"vsFreePort":false,
 			"canBombard":true,
 			"territorial":true,
 		},
-	},	
+	},
 	"fleetTypeNames":{
-		"trade":"Supply Expedition",
-		"tradeLiner":"Official Trade Detachement",
-		"tradeSmuggler":"Independant Trade Contractor",
-		"smallTrader":"Trade Auxiliary",
-		
-		"patrolSmall":"Security Team",
-		"patrolMedium":"Operational Security Group",
-		"patrolLarge":"Guardian Spirit Fleet",
-		
-		"inspectionFleet":"Peacekeeping Task Force",
-		"taskForce":"Grand Order Force",
-		
-		"foodReliefFleet":"Relief Convoy",
-		
-		#"mercScout":"Auxiliary Scout",
-		"mercBountyHunter":"Auxiliary Deputy",
-		"mercPrivateer":"Security Auxiliary",
-		#"mercPatrol":"Auxiliary Patrol",
-		#"mercArmada":"Auxiliary Armada",
-	}
+		"smallTrader":"Trade Convoy",
+		"trade":"Trade Convoy",
+		"tradeLiner":"Passenger Convoy",
+		"patrolSmall":"Nobbu Corsair",
+		"patrolMedium":"Nobbu Raiders",
+		"patrolLarge":"Nobbu Armada",
+		"taskForce":"Heavenly Wrath Armada",
+		"mercScout":"Nobbu Scout",
+		"mercBountyHunter":"Nobbu Raiders",
+		"mercPrivateer":"Nobbu Raiders",
+		"mercPatrol":"Nobbu Attack Fleet",
+		"mercArmada":"Armada",
+	},
 }
-

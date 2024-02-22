@@ -7,16 +7,13 @@ import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI.SurveyLevel;
 import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Conditions;
-import com.fs.starfarer.api.impl.campaign.ids.Industries;
-import com.fs.starfarer.api.impl.campaign.ids.Skills;
-import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
+import com.fs.starfarer.api.characters.RelationshipAPI;
+import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.rulecmd.AddPotentialContact;
 
-import static com.fs.starfarer.api.campaign.PersonImportance.LOW;
-import static com.fs.starfarer.api.campaign.PersonImportance.VERY_HIGH;
+import static com.fs.starfarer.api.campaign.PersonImportance.*;
 import static com.fs.starfarer.api.characters.FullName.Gender.FEMALE;
 import static com.fs.starfarer.api.characters.FullName.Gender.MALE;
 import static com.fs.starfarer.api.impl.campaign.ids.Ranks.CITIZEN;
@@ -161,7 +158,8 @@ public class BlueMoonPlugin extends BaseModPlugin {
 			Ast.setPortraitSprite(Global.getSettings().getSpriteName("characters", "bluemoon_ast"));
 			Ast.setGender(MALE);
 			Ast.setFaction("blue_moon");
-			Ast.setImportance(VERY_HIGH);
+			Ast.setImportance(HIGH);
+			Ast.addTag("military");
 
 			Ast.setRankId(FACTION_LEADER);
 			Ast.setPostId(FACTION_LEADER);
@@ -208,8 +206,8 @@ public class BlueMoonPlugin extends BaseModPlugin {
 		Ethoi_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 
 		PlanetAPI Seduveren = system.addPlanet("Seduveren", star, "Seduveren", "jungle", 30, 50, 6300, 1200);
-		Seduveren.setFaction("pirates");
-		MarketAPI seduveren_market = Global.getFactory().createMarket("seduveren_market", Seduveren.getName(), 1);
+		Seduveren.setFaction("oda_clan");
+		MarketAPI seduveren_market = Global.getFactory().createMarket("seduveren_market", Seduveren.getName(), 4);
 
 		seduveren_market.setPlanetConditionMarketOnly(false); //This "market" only represents planet conditions.
 		seduveren_market.addCondition(Conditions.MILD_CLIMATE); //It's a hot Jupiter so let's make it hot!
@@ -220,15 +218,18 @@ public class BlueMoonPlugin extends BaseModPlugin {
 		Seduveren.setMarket(seduveren_market); //Likewise, tell our planet that it has a "market".
 		seduveren_market.setSurveyLevel(SurveyLevel.FULL);
 		seduveren_market.getTariff().modifyFlat("generator", 0.0f);
-		seduveren_market.addCondition(Conditions.POPULATION_1);
-		seduveren_market.setFactionId("pirates");
+		seduveren_market.addCondition(Conditions.POPULATION_4);
+		seduveren_market.setFactionId("oda_clan");
 		seduveren_market.addIndustry(Industries.POPULATION);
-		seduveren_market.addIndustry(Industries.SPACEPORT);
+		seduveren_market.addIndustry(Industries.MEGAPORT);
 		seduveren_market.addIndustry(Industries.FARMING);
+		seduveren_market.addIndustry(Industries.ORBITALWORKS);
+		seduveren_market.addIndustry(Industries.MILITARYBASE);
+		seduveren_market.addIndustry(Industries.STARFORTRESS_HIGH);
 
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
-		phantu_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+		seduveren_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		{
 			PersonAPI Ocp = Global.getFactory().createPerson();
 			Ocp.getName().setFirst("Ocp");
@@ -247,8 +248,29 @@ public class BlueMoonPlugin extends BaseModPlugin {
 			Ocp.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 2);
 
 
-			seduveren_market.getCommDirectory().addPerson(Ocp, 1);
+			seduveren_market.getCommDirectory().addPerson(Ocp, 9);
 			seduveren_market.addPerson(Ocp);
+
+			PersonAPI Oda = Global.getFactory().createPerson();
+			Oda.getName().setFirst("Oda");
+			Oda.getName().setLast("Nobunaga");
+			Oda.setPortraitSprite(Global.getSettings().getSpriteName("characters", "bluemoon_oda"));
+			Oda.setGender(FEMALE);
+			Oda.setFaction("oda_clan");
+			Oda.setImportance(VERY_HIGH);
+			Oda.setId("BMS_Oda");
+			Oda.addTag("military");
+
+			Oda.setRankId(FACTION_LEADER);
+			Oda.setPostId(FACTION_LEADER);
+
+			Oda.getStats().setSkillLevel(Skills.INDUSTRIAL_PLANNING, 1);
+			Oda.getStats().setSkillLevel(Skills.SPACE_OPERATIONS, 2);
+			Oda.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 2);
+
+
+			seduveren_market.getCommDirectory().addPerson(Oda, 1);
+			seduveren_market.addPerson(Oda);
 		}
 
 		EconomyAPI globalEconomy = Global.getSector().getEconomy();
@@ -270,5 +292,22 @@ public class BlueMoonPlugin extends BaseModPlugin {
 
 		system.autogenerateHyperspaceJumpPoints(true, true);
 
+		FactionAPI oda_clan = sector.getFaction("oda_clan");
+
+		oda_clan.setRelationship("hegemony", -0.7f);
+		oda_clan.setRelationship("tritachyon", -0.7f);
+		oda_clan.setRelationship("pirates", -0.7f);
+		oda_clan.setRelationship("independent", 0.1f);
+		oda_clan.setRelationship("player", -0.2f);
+
+		FactionAPI blue_moon = sector.getFaction("blue_moon");
+
+		blue_moon.setRelationship("hegemony", -0.2f);
+		blue_moon.setRelationship("tritachyon", -0.6f);
+		blue_moon.setRelationship("pirates", 0.1f);
+		blue_moon.setRelationship("independent", 0.4f);
+		blue_moon.setRelationship("oda_clan", 0.8f);
+		blue_moon.setRelationship("player", 0.1f);
+		}
 	}
-}
+
