@@ -191,6 +191,14 @@
 		"cyclone":5,
 		"squall":10,
 		"locust":10,
+		"bluemoon_lampe":5,
+		"bluemoon_tv":5,
+		"bluemoon_roset":5,
+		"bluemoon_meka":5,
+		"bluemoon_nobbu_minigun": 15,
+		"bluemoon_nobbu_harpoon": 15,
+		"bluemoon_nobbu_sniper": 2.5,
+		
 	},
 	"fighterSellFrequency":{
 	},

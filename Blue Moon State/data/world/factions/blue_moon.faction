@@ -196,6 +196,10 @@
 		"cyclone":5,
 		"squall":10,
 		"locust":10,
+		"bluemoon_lampe":10,
+		"bluemoon_tv":10,
+		"bluemoon_roset":10,
+		"bluemoon_meka":10,
 	},
 	"fighterSellFrequency":{
 	},
