@@ -1,0 +1,30 @@
+{
+
+"combatSmallForSmallFleet": {
+	"bluemoon_modau_battletank": 15,
+	"bluemoon_scene_War_Scenario":15,
+	"bluemoon_hypenan_volska": 5
+},
+"combatSmall": {
+	"bluemoon_modau_battletank": 15,
+	"bluemoon_scene_War_Scenario":15,
+	"bluemoon_hypenan_volska": 5
+},
+"combatMedium":{
+			"bluemoon_hypenan_volska": 15,
+			"bluemoon_Nobbu_Warcastle_Classic": 5
+	},
+
+"combatFreighterSmall":{
+	"bluemoon_modau_battletank":15,
+},
+
+"civilianRandom":{
+	"bluemoon_modau_battletank":15,
+	"bluemoon_scene_War_Scenario":10,
+	"bluemoon_hypenan_volska": 2.5
+},
+
+	"combatCapital":{
+	},
+}

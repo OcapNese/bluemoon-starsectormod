@@ -1,0 +1,30 @@
+{
+  "variantId": "bluemoon_modau_battletank",
+  "hullId": "bluemoon_modau",
+  "displayName": "Modau Battletank",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "bluemoon_lampe"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

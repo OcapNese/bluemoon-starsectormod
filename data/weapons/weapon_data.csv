@@ -1,0 +1,8 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Lampe Cannon,bluemoon_lampe,1,,1000,750,,350,,10,18,10,,,,KINETIC,175,,0,1.2,1,,0,28,7,10,,700,,,45,,,,"bluemoon_package, bluemoon",,,,Anti Shield,,,,,,,,,,4.127
+War Scenario,bluemoon_tv,1,,600,800,65,,,0,100,7,,,,ENERGY,,50,0,0.2,,,,,,,2800,,,,,,,PD,"bluemoon_package, bluemoon",,,,Point Defense,,,,,,,,,,17.5
+Knight Roset,bluemoon_roset,1,,425,1000,,700,,15,30,3,,,,FRAGMENTATION,0,,0,25,1,,0,0,0,,,600,50,20,175,,,SYSTEM,"bluemoon_package, bluemoon",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,11.25
+Mecanical Lance,bluemoon_meka,1,,1000,55,,450,,20,35,10,,,,KINETIC,75,,0,1.2,1,,0,28,7,10,,1000,,,45,,,SYSTEM,,,,,Anti Shield,,,,,,,,,,4.127
+Minigun Nobbu,bluemoon_nobbu_minigun,1,,4500,600,,75,,4,56,14,100,4,,HIGH_EXPLOSIVE,25,,0,0.15,3,,0,65,2,10,,1000,,,45,,,PD,"bluemoon_package, bluemoon",,,,Anti Armor,,,,,,,,,,4.5
+Nobu Troop Launcher,bluemoon_nobbu_harpoon,1,,3000,2500,,1250,,20,10,10,12,,,HIGH_EXPLOSIVE,0,,0,8.25,4,0.25,0,0,0,,,400,100,12.5,150,,,DO_NOT_AIM,"bluemoon_package, bluemoon",,,,Finisher,Medium,Medium,,,,,,,TRUE,12
+Nobbu Sniper,bluemoon_nobbu_sniper,3,,45000,1500,,1250,,10,60,28,,,,KINETIC,1500,,0,25,3,,0,10,2,10,,4000,,,50,,,,"bluemoon_package, bluemoon",,,,Finisher,,,,,,,,,,4.25
