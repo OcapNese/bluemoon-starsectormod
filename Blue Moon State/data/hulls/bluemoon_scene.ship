@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "civgrade",
-    "ground_support"
+    "pointdefenseai"
   ],
   "builtInWeapons": {
     "WS0003": "bluemoon_tv"

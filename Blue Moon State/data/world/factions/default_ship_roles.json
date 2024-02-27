@@ -11,7 +11,8 @@
 	"bluemoon_hypenan_volska": 5
 },
 "combatMedium":{
-			"bluemoon_hypenan_volska": 15
+			"bluemoon_hypenan_volska": 15,
+			"bluemoon_Nobbu_Warcastle_Classic": 5
 	},
 
 "combatFreighterSmall":{
@@ -25,6 +26,5 @@
 },
 
 	"combatCapital":{
-	"bluemoon_furrotolfo_titan": 25,
 	},
 }
