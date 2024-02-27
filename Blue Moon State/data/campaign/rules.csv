@@ -24,7 +24,7 @@ BMS_wait,DialogOptionSelected,$option == BMS_wait,FireAll PopulateOptions,"Ast r
 OR
 
 The comms resolve to show Ast doing a complicated manouver as he jumps over his desk to make a entrance. ""Channel clear, go ahead.""",,
-convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
+BMS_convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
 $market.id == Moonial_market
 $postId == factionLeader","$contact_printedFirstReturnGreeting = false
 ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, that would force throught and allow you see audio and video. Should you press it?","1:BMS_wait:Wait to the sound of static
@@ -33,12 +33,21 @@ ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, y
 ,,,FireAll PopulateOptions,"
 ",,
 BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the Grandmaster having some fun with a particularly large phallic toy. Ast is giving it quite the risky show.He becomes red as firework when he realizes his camera is on. You can see him scream to his subordinate and throw a towel over himself, as he shuts down the camera.","1:BMS_Astpekaboo:Wait, for him to be ready.",
-BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service what do you want?"" He seems oddly calm.",,
+BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service, what do you want?"" He seems oddly calm.",,
 BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, no other positions have been implemented.","1:BMS_AstSexTop:That’s fine with me.
 2:BMS_AstSexTop_Nop:Later.",
-BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,FireAll PopulateOptions,"He pounds into his bed, making sure you feel every little tremor of his balls on your ass, making use of his amazing stamina to drill into you all night long,
-He even lets you wake up with a free breakfast the next day.
-He is not here, he is a busy man after all.",,
+BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,,"Ast makes a funny expression, a bit surprised you actually accepted that easily. ""Well then, come over here, lad, i will gladly accept this offer""
+Your shuttle comes down into the planet side, a young squire guards your entry into the citadel as some unsavory characters may try some dumb ideas. 
+Some of the Knights are a bit ruffled by the rumors of why you’re here but they are nevertheless bound to let you pass. ",1:BMS_AstSexTop_goon:Continue.,
+BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast jumps on top of you the moment you pass throught into the main castle, ""I am going to enjoy this so much"" He pushes you against the bed, putting his dick near your entrance. You can feel his length extend over your backside searching for a way into your nethers. He finally pierces in ""How does that feel my little cumslut, do you like it?"" He starts drilling in in a messy but firm manner, trying to squeeze out as much as he can out of you.
+His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let’s end this.,
+BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You’re so nice"" he manages to sneak before sleep claims him.",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 BMS_bqfsAskForSuppliesDeniedBigLoad,DialogOptionSelected,"$gavePlayerBigLoad
 $option == BMS_AstAskForSupplies","$saidAlreadyGaveSupplies = True 6
 FireAll PopulateOptions","""Captain, I know you want more of me, but I had my fill of blowjobs"" Ast scoffs at you.
@@ -60,7 +69,8 @@ BMS_AstSexTop_Nop,DialogOptionSelected,$option == BMS_AstSexTop_Nop,FireAll Popu
 #Ocp,,,,,,
 BMS_Ocp_Dialogue,PopulateOptions,"$market.id == seduveren_market
 $id==BMS_Ocp",,,"1:BMS_Ocp_Hi:""Make ships better?""
-2:BMS_Ocp_Hit:Hit them in the head.",
+2:BMS_Ocp_Hit:Hit them in the head.
+3:BMS_Ocp_Experiments: ""So what is that weird list behind you?""",
 BMS_Ocp_Hi,DialogOptionSelected,$option == BMS_Ocp_Hi,,"""I don’t know how, I am still learning""",,
 BMS_Ocp_hit,DialogOptionSelected,$option == BMS_Ocp_Hit,,"""Ouch, jerk""",,
 ,,,,,,
@@ -68,26 +78,20 @@ BMS_Ocp_Grettings,PickGreeting,"$market.id == seduveren_market
 $id==BMS_Ocp","ShowPersonVisual
 FireAll PopulateOptions ","""Hi, it is me Ocp, the Bluemoon Shipyards Designer""",,
 ,,,,,,
+BMS_Ocp_Experiments,DialogOptionSelected,$option == BMS_Ocp_Experiments,,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
+""So I have some interesting tests I want to run, for it I need a volunteer"" *They take out a long and complicated contract* 
+""You don’t need to read it right? So what do you say want in? Don’t worry, I am a medical trainee"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+2:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
+BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant cow milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
+BMS_Ocp_Experiments_Toys2,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys2,,"They connect the machine to your crotch, and some extra tendrils to your belly and thights. You can feel the stickiness of the milker as it grabs onto you. It is slow at first just a simple tug, but it quickly spirals out into a cacophony of feelings as every tendril lets out a electrical current, making you feel all fuzzy inside~. ""That’s enough for now"" Ocp says making you feel a bit confused.",1:BMS_Ocp_Experiments_Toys3: That’s it?,
+BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer, nods towards the door. ""Out of my lab, please""",,
 ,,,,,,
-# relationship level descriptions,,,,,,
-relLevelCooperativeBluemoon,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == blue_moon",,"You are known by the Order Grandmaster itself,  $theFaction recognizes you as a charitable soul, high-level officials are looking to network with a condecorated hero of the States. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",,
-relLevelFriendlyBluemoon,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == blue_moon",,"You're relatively well-known within $theFaction, whether in person or by reputation. Most members of the Order will come to your aid, as a fellow spacer.",,
-relLevelWelcomingBluemoon,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == blue_moon",,"You have a benefactor in $theFaction, seeing how much you have done in their stead. Harassing you is therefore a more risky endeavor for local patrol commanders.",,
-relLevelFavorableBluemoon,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == blue_moon",,"The $faction officials tend to view you favorably, though this has little in the way of implications. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.",,
-relLevelNeutralBluemoon,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == blue_moon",,"You're not generally well known by $faction officials, for good or ill.",,
-relLevelSuspiciousBluemoon,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == blue_moon",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. Link access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently.",,
-relLevelInhospitableBluemoon,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == blue_moon",,"Suspicions have risen to an actionable level. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
-relLevelHostileBluemoon,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == blue_moon",,"$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. The Knights have posted a caution phamplet for travelers with your face and name in bold red.",,
-relLevelVengefulBluemoon,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == blue_moon",,"You can find a holo of your face with clown makeup and somebody giving you a wedgie in almost every planet, doctored for sure. Ast has actually taken note of much of a jerk you are, so he is a bit dissapointed. The Order has a private betting ring going for who gets your head.",,
+,,,,,,
+BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn’t need to do that""",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 ,,,,,,
 #Oda,,,,,,
 BMS_Oda_Salutations,PickGreeting,"$market.id == seduveren_market
@@ -143,3 +147,23 @@ $faction.id == oda_clan ",,"Once a foolish Nobu said the name of your flagship, 
 ,,,,,,
 BMS_Nobu_Greetings,PickGreeting,$faction.id == oda_clan,"ShowPersonVisual
 FireAll PopulateOptions ","""Nobbu? Nobbu… Nobbu""",,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelCooperativeBluemoon,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == blue_moon",,"You are known by the Order Grandmaster itself,  $theFaction recognizes you as a charitable soul, high-level officials are looking to network with a condecorated hero of the States. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",,
+relLevelFriendlyBluemoon,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == blue_moon",,"You're relatively well-known within $theFaction, whether in person or by reputation. Most members of the Order will come to your aid, as a fellow spacer.",,
+relLevelWelcomingBluemoon,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == blue_moon",,"You have a benefactor in $theFaction, seeing how much you have done in their stead. Harassing you is therefore a more risky endeavor for local patrol commanders.",,
+relLevelFavorableBluemoon,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == blue_moon",,"The $faction officials tend to view you favorably, though this has little in the way of implications. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.",,
+relLevelNeutralBluemoon,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == blue_moon",,"You're not generally well known by $faction officials, for good or ill.",,
+relLevelSuspiciousBluemoon,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == blue_moon",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. Link access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently.",,
+relLevelInhospitableBluemoon,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == blue_moon",,"Suspicions have risen to an actionable level. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
+relLevelHostileBluemoon,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == blue_moon",,"$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. The Knights have posted a caution phamplet for travelers with your face and name in bold red.",,
+relLevelVengefulBluemoon,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == blue_moon",,"You can find a holo of your face with clown makeup and somebody giving you a wedgie in almost every planet, doctored for sure. Ast has actually taken note of much of a jerk you are, so he is a bit dissapointed. The Order has a private betting ring going for who gets your head.",,
