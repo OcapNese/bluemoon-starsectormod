@@ -14,3 +14,10 @@ They inhabit the Condilar System next to the Blue Moon, they act as Pirates
 New Character: Oda Nobunaga
 The Heavens Emperor
 Has a sex scene :)
+
+0.0.4
+Added another experimental sex scene and an dialogue "area" for them to exist.
+New ship, new weapons.
+Trying to flesh out factions.
+New bad graphics.
+
