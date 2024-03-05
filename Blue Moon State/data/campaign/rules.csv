@@ -11,6 +11,7 @@ $option == BMS_AstAskForSupplies",,"""Captain, you want more? that’s greedy. L
 2:BMS_notsure:""I would rather not.""",
 BMS_Beggingforit,DialogOptionSelected,$option == BMS_Beggingforit,"AddRemoveCommodity supplies 50
 $gavePlayerBigLoad = True 30
+AdjustRepActivePerson 2
 FireAll PopulateOptions","Your shuttle goes down into the planet and towards the Grandmaster’s house. As you enter his residence, you realize he kind of has all the power here.
 You don’t get a lot of time to think about it as the moment you’re in his room, you find yourself on your knees giving an enthusiastic service to the master of this planet.
 ""Good one,seems you know your place slut."" Ast smirks full of unbridled confidence ""How does it feel to choke on my fat cock?""
@@ -42,8 +43,9 @@ Some of the Knights are a bit ruffled by the rumors of why you’re here but the
 BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast jumps on top of you the moment you pass throught into the main castle, ""I am going to enjoy this so much"" He pushes you against the bed, putting his dick near your entrance. You can feel his length extend over your backside searching for a way into your nethers. He finally pierces in ""How does that feel my little cumslut, do you like it?"" He starts drilling in in a messy but firm manner, trying to squeeze out as much as he can out of you.
 His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let’s end this.,
 BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You’re so nice"" he manages to sneak before sleep claims him.",,
-,,,,,,
-,,,,,,
+BMS_Ast_Loredump,PopulateOptions,"$market.id == Moonial_market
+$id==BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what’s your story?""",
+BMS_Ast_Loredump2,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic faith, Ludd’s has some origins on that, so they didn’t like that, also I did interact with the knights they gave me a ride all the way to the moon, I know it doesn’t sound that impressive, but this was before FTL, so I could grab my boi Roland sanity, I saved him, good one me, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and exiled out of the core worlds, i guess fair,then some random mercs tried to mug me and I kicked their asses and they wanted to become my friends, I ended up unifying some pirate families, I think they call themselves nobles now, and now I am here and the meanies in my council just dont want to let me out to play, operational security and uncomprehensible energy signals, something like that, I just think they are scared of my coolness, that reminds me, I scared off a bunch of my old friends with the Tuba, that was so funny, i wonder what they doing right about now. Maybe Sieg will show up if a Dragon appears, idk, Anything else?"" ",,
 ,,,,,,
 ,,,,,,
 ,,,,,,

@@ -1,7 +1,7 @@
 {
   "variantId": "bluemoon_knight_errant",
   "hullId": "bluemoon_knight",
-  "displayName": "New Variant",
+  "displayName": "Errant",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -14,10 +14,21 @@
       "mode": "LINKED",
       "weapons": {
         "WS 001": "bluemoon_meka",
-        "WS 002": "bluemoon_meka",
+        "WS 002": "bluemoon_meka"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS 003": "bluemoon_roset",
         "WS 004": "bluemoon_roset"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
