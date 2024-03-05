@@ -1,0 +1,23 @@
+{
+	"id":"bluemoon_knight_pauldrons",  # this id must match what's in the spreadsheet
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"specClass": "beam",
+	"turretSprite":"graphics/weapons/bluemoon_knight_pauldrons.png",
+	"hardpointSprite":"graphics/weapons/bluemoon_knight_pauldrons.png",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],	
+	"collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  	"fringeColor":[0,255,0,225],
+	"coreColor":[255,255,255,255],
+	"glowColor":[155,255,155,255],
+	#"fringeColor":[155,0,0,255],
+	#"coreColor":[255,255,255,255],
+	#"glowColor":[255,100,100,255],	
+	"width":13.0,
+	"textureType":ROUGH,
+	#"textureType":["graphics/fx/beam_chunky_fringe.png","graphics/fx/beam_chunky_core.png"],
+}

@@ -2,7 +2,7 @@ id,trigger,conditions,script,text,options,notes
 #Ast,,,,,,
 ,,,,,,
 BMS_AstAskForSupplies,PopulateOptions,"$market.id == Moonial_market
-$postId == factionLeader",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
+$id==BMS_Ast",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
 BMS_AstAskForSuppliesOption,DialogOptionSelected,$option == BMS_AstAskForSupplies,"AddRemoveCommodity supplies 20
 $gavePlayerFreeSupplies = true 3
 FireAll PopulateOptions","""Oh you need more, i don’t have access to the storage but I can give a bit of my personal stash. Onwards to adventure fellow explorer.""",,
@@ -11,6 +11,7 @@ $option == BMS_AstAskForSupplies",,"""Captain, you want more? that’s greedy. L
 2:BMS_notsure:""I would rather not.""",
 BMS_Beggingforit,DialogOptionSelected,$option == BMS_Beggingforit,"AddRemoveCommodity supplies 50
 $gavePlayerBigLoad = True 30
+AdjustRepActivePerson 2
 FireAll PopulateOptions","Your shuttle goes down into the planet and towards the Grandmaster’s house. As you enter his residence, you realize he kind of has all the power here.
 You don’t get a lot of time to think about it as the moment you’re in his room, you find yourself on your knees giving an enthusiastic service to the master of this planet.
 ""Good one,seems you know your place slut."" Ast smirks full of unbridled confidence ""How does it feel to choke on my fat cock?""
@@ -26,7 +27,7 @@ OR
 The comms resolve to show Ast doing a complicated manouver as he jumps over his desk to make a entrance. ""Channel clear, go ahead.""",,
 BMS_convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
 $market.id == Moonial_market
-$postId == factionLeader","$contact_printedFirstReturnGreeting = false
+$id==BMS_Ast","$contact_printedFirstReturnGreeting = false
 ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, that would force throught and allow you see audio and video. Should you press it?","1:BMS_wait:Wait to the sound of static
 2:BMS_Asthack:Big Red Shiny Button!
 3:BMS_thatsenough:I am out, cutt comms",
@@ -34,7 +35,7 @@ ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, y
 ",,
 BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the Grandmaster having some fun with a particularly large phallic toy. Ast is giving it quite the risky show.He becomes red as firework when he realizes his camera is on. You can see him scream to his subordinate and throw a towel over himself, as he shuts down the camera.","1:BMS_Astpekaboo:Wait, for him to be ready.",
 BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service, what do you want?"" He seems oddly calm.",,
-BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, no other positions have been implemented.","1:BMS_AstSexTop:That’s fine with me.
+BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, the Knights got angry with me the last time i got pounded by a cutie.","1:BMS_AstSexTop:That’s fine with me.
 2:BMS_AstSexTop_Nop:Later.",
 BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,,"Ast makes a funny expression, a bit surprised you actually accepted that easily. ""Well then, come over here, lad, i will gladly accept this offer""
 Your shuttle comes down into the planet side, a young squire guards your entry into the citadel as some unsavory characters may try some dumb ideas. 
@@ -42,6 +43,14 @@ Some of the Knights are a bit ruffled by the rumors of why you’re here but the
 BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast jumps on top of you the moment you pass throught into the main castle, ""I am going to enjoy this so much"" He pushes you against the bed, putting his dick near your entrance. You can feel his length extend over your backside searching for a way into your nethers. He finally pierces in ""How does that feel my little cumslut, do you like it?"" He starts drilling in in a messy but firm manner, trying to squeeze out as much as he can out of you.
 His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let’s end this.,
 BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You’re so nice"" he manages to sneak before sleep claims him.",,
+BMS_Ast_Loredump,PopulateOptions,"$market.id == Moonial_market
+$id==BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what’s your story?""",
+BMS_Ast_Loredump2,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic faith, Ludd’s has some origins on that, so they didn’t like that, also I did interact with the knights they gave me a ride all the way to the moon, I know it doesn’t sound that impressive, but this was before FTL, so I could grab my boi Roland sanity, I saved him, good one me, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and exiled out of the core worlds, i guess fair,then some random mercs tried to mug me and I kicked their asses and they wanted to become my friends, I ended up unifying some pirate families, I think they call themselves nobles now, and now I am here and the meanies in my council just dont want to let me out to play, operational security and uncomprehensible energy signals, something like that, I just think they are scared of my coolness, that reminds me, I scared off a bunch of my old friends with the Tuba, that was so funny, i wonder what they doing right about now. Maybe Sieg will show up if a Dragon appears, idk, Anything else?"" ",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -138,7 +147,7 @@ $faction.id == oda_clan ",,"You're not generally well known by $faction official
 relLevelSuspiciousOdaclan,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == oda_clan ",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. Link access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently.",,
 relLevelInhospitableOdaclan,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted piñatas with your face. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans",,
+$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted piñatas with your face. $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans",,
 relLevelHostileOdaclan,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu’s have an industrial line set up for the production of pots bearing a resemblence to your second’s ass and another for bats in image of the Emperor Sword.",,
 relLevelVengefulOdaclan,RelationshipLevelDesc,"$faction.rel == VENGEFUL
