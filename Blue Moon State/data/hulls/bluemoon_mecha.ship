@@ -1,0 +1,115 @@
+{
+  "hullName": "Mecha Knight",
+  "hullId": "bluemoon_mecha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/bluemoon/bluemoon_mecha.png",
+  "style": "HIGH_TECH",
+  "height": 96,
+  "width": 68,
+  "center": [35.5, 32],
+  "collisionRadius": 87,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "dedicated_targeting_core",
+    "ballistic_rangefinder"
+  ],
+  "builtInWeapons": {
+    "WS0001": "bluemoon_knight_helmet",
+    "WS0002": "bluemoon_knight_pauldrons",
+    "WS0003": "bluemoon_knight_pauldrons",
+    "WS0007": "bluemoon_knight_rightarm",
+    "WS0009": "bluemoon_knight_leftarm"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [0, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, -25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, 25.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -32,
+      "locations": [-0.5, -35],
+      "renderOrderMod": -1
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 34,
+      "locations": [0.5, 25.5],
+      "renderOrderMod": -9
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20, 11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 28],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, -28.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 1],
+      "length": 24,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -21.5, 41,
+    41.5, 41.5,
+    44, -36.5,
+    -21, -39
+  ]
+}

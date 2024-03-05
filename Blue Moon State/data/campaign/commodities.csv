@@ -1,0 +1,2 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+Milk,bluemoon_milk,bluemoon_milk,25,750,5,1,,food,1500,1,graphics/icons/cargo/bluemoon_milk.png,ui_cargo_food,ui_cargo_food_drop,13,1,500,2000,,40000,1,,

@@ -1,0 +1,79 @@
+{
+  "id": "bluemoon_knight_leftarm",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "BEAM",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/bluemoon_knight_leftarm.png",
+  "turretGunSprite": "graphics/weapons/bluemoon_knight_leftarm.png",
+  "turretUnderSprite": "graphics/weapons/double_flak_cannon_turret_recoil.png",
+  "hardpointSprite": "",
+  "showDamageWhenDecorative": true,
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    40,
+    6,
+    38,
+    1,
+    38,
+    10.5,
+    36,
+    16,
+    36,
+    -2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    255,
+    0,
+    225
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 13,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":33.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":17.0,
+					   "particleDuration":0.12,
+					   "particleCount":7,
+					   "particleColor":[100,200,255,255]},
+					   
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"bluemoon_punchshot",  # projectile that will be fired
+	#"fireSoundOne":"thumper_spinup",
+	"fireSoundTwo":"ion_pulser_fire",
+	"glowColor":[100,150,255,225],
+}

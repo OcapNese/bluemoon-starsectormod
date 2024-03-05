@@ -3,8 +3,8 @@
   "hullId": "bluemoon_Nobbu_Warcastle",
   "displayName": "Classic",
   "goalVariant": false,
-  "fluxCapacitors": 1,
-  "fluxVents": 20,
+  "fluxCapacitors": 0,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -21,7 +21,8 @@
         "WS0006": "vulcan",
         "WS0007": "vulcan",
         "WS0008": "vulcan",
-        "WS0010": "bomb",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
         "WS0011": "bluemoon_nobbu_minigun",
         "WS0012": "bluemoon_nobbu_minigun"
       }
