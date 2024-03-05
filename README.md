@@ -21,7 +21,7 @@ New ship, new weapons.
 Trying to flesh out factions.
 New bad graphics.
 
-0.0.5
+0.0.45
 The only Nobbu ship is now not a complete mess (In graphics, I AM NOT A SPRITER)
 
 Rebalanced some ships, and added a worse mech than the modding standart. (Working on it)
