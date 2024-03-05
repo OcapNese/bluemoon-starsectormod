@@ -65,7 +65,16 @@
       "locations": [12, -21]
     }
   ],
-  "engineSlots": [],
+  "engineSlots": [
+    {
+      "location": [-15, -1],
+      "length": 30,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    }
+  ],
   "bounds": [
     29.5, -30.5,
     -27, -28.5,
