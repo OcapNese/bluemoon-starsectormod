@@ -23,7 +23,10 @@ New bad graphics.
 
 0.0.5
 The only Nobbu ship is now not a complete mess (In graphics, I AM NOT A SPRITER)
+
 Rebalanced some ships, and added a worse mech than the modding standart. (Working on it)
+
 The idiots of Ethoi realized that they cannot farm in a plantless land, and decided to start a new milk scheme. (A new industry has been added for demonstration reasons).
+
 Ast is now allowed to Lore dump your ass if you let him start telling stories, this is going to be extended. (I am reading the source material)
 
