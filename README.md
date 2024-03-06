@@ -33,3 +33,5 @@ Ast is now allowed to Lore dump your ass if you let him start telling stories, t
 No new sex :(
 0.0.451
 
+Fixed Astolfo IDs, now more conversations should appear.
+
