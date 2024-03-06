@@ -2,7 +2,7 @@ id,trigger,conditions,script,text,options,notes
 #Ast,,,,,,
 ,,,,,,
 BMS_AstAskForSupplies,PopulateOptions,"$market.id == Moonial_market
-$id==BMS_Ast",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
+$id== BMS_Ast",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
 BMS_AstAskForSuppliesOption,DialogOptionSelected,$option == BMS_AstAskForSupplies,"AddRemoveCommodity supplies 20
 $gavePlayerFreeSupplies = true 3
 FireAll PopulateOptions","""Oh you need more, i don’t have access to the storage but I can give a bit of my personal stash. Onwards to adventure fellow explorer.""",,
@@ -27,7 +27,7 @@ OR
 The comms resolve to show Ast doing a complicated manouver as he jumps over his desk to make a entrance. ""Channel clear, go ahead.""",,
 BMS_convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
 $market.id == Moonial_market
-$id==BMS_Ast","$contact_printedFirstReturnGreeting = false
+$id== BMS_Ast","$contact_printedFirstReturnGreeting = false
 ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, that would force throught and allow you see audio and video. Should you press it?","1:BMS_wait:Wait to the sound of static
 2:BMS_Asthack:Big Red Shiny Button!
 3:BMS_thatsenough:I am out, cutt comms",
@@ -44,7 +44,7 @@ BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast jump
 His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let’s end this.,
 BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You’re so nice"" he manages to sneak before sleep claims him.",,
 BMS_Ast_Loredump,PopulateOptions,"$market.id == Moonial_market
-$id==BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what’s your story?""",
+$id== BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what’s your story?""",
 BMS_Ast_Loredump2,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic faith, Ludd’s has some origins on that, so they didn’t like that, also I did interact with the knights they gave me a ride all the way to the moon, I know it doesn’t sound that impressive, but this was before FTL, so I could grab my boi Roland sanity, I saved him, good one me, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and exiled out of the core worlds, i guess fair,then some random mercs tried to mug me and I kicked their asses and they wanted to become my friends, I ended up unifying some pirate families, I think they call themselves nobles now, and now I am here and the meanies in my council just dont want to let me out to play, operational security and uncomprehensible energy signals, something like that, I just think they are scared of my coolness, that reminds me, I scared off a bunch of my old friends with the Tuba, that was so funny, i wonder what they doing right about now. Maybe Sieg will show up if a Dragon appears, idk, Anything else?"" ",,
 ,,,,,,
 ,,,,,,
@@ -62,9 +62,9 @@ $option == BMS_AstAskForSupplies","$saidAlreadyGaveSupplies = True 6
 FireAll PopulateOptions","""Captain, I know you want more of me, but I had my fill of blowjobs"" Ast scoffs at you.
 ""So no more supplies for a bit""",,
 BMS_AstSex?,PopulateOptions,"$market.id == Moonial_market
-$postId == factionLeader",,,"1:BMS_AstSex:""Wanna have sex?""",
+$id== BMS_Ast",,,"1:BMS_AstSex:""Wanna have sex?""",
 BMS_AstMaster?,PopulateOptions,"$market.id == Moonial_market
-$postId == factionLeader",,,"1:BMS_masteranswer:""Can i be your master?""",
+$id== BMS_Ast",,,"1:BMS_masteranswer:""Can i be your master?""",
 BMS_masteranswer,DialogOptionSelected,"$Masterquestionasked == false
 $option == BMS_masteranswer","AddPotentialContact Ast
 $Masterquestionasked = true","Ast looks at you for a second, then shakes his head ""No, but i can give you my personal coms""",,

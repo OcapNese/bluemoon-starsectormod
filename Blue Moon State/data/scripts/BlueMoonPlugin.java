@@ -172,6 +172,7 @@ public class BlueMoonPlugin extends BaseModPlugin {
 			Ast.setFaction("blue_moon");
 			Ast.setImportance(HIGH);
 			Ast.addTag("military");
+			Ast.setId("BMS_Ast");
 
 			Ast.setRankId(FACTION_LEADER);
 			Ast.setPostId(FACTION_LEADER);
