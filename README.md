@@ -31,6 +31,7 @@ The idiots of Ethoi realized that they cannot farm in a plantless land, and deci
 Ast is now allowed to Lore dump your ass if you let him start telling stories, this is going to be extended. (I am reading the source material)
 
 No new sex :(
+
 0.0.451
  
  
