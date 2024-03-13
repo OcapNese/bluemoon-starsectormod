@@ -38,6 +38,7 @@ No new sex :(
 Fixed Astolfo IDs, now more conversations should appear.
 
 0.0.5
+
 Oda Nobukatsu has arrived to the sector!
 
 And he brought some new toys to play with.
