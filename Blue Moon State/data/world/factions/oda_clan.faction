@@ -296,6 +296,7 @@
 			"patrolCommander":{"name":"Nobbu Patrol Leader"},
 			"fleetCommander":{"name":"Senior Nobbu Commander"},
 			"baseCommander":{"name":"Castle Manager"},
+			"aristocrat":{"name":"Imperial Minister"},
 		},
 	},
 	"voices":{

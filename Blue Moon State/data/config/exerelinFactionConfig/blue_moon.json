@@ -7,22 +7,22 @@
     "directoryUseShortName":true,
 
     "startRelationships":{
-        "hegemony":-0.2,
+        "hegemony":-0.6,
         "luddic_church":-0.2,
-        "persean":0.2,
+        "persean":-0.1,
         "sindrian_diktat":0.2,
     },
 
     "morality":"moral",
 
-    "diplomacyTraits":["stalwart","lowprofile","anarchist"],
+    "diplomacyTraits":["stalwart","anarchist"],
 
     "alignments":{
             "corporate":-0.5,
             "technocratic":0.7,
             "militarist":0.6,
             "diplomatic":-0.2,
-            "ideological":0.70,
+            "ideological":0.7,
     },
 	"colonyExpeditionChance":0.65,
     "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
@@ -33,7 +33,6 @@
     
     "defenceStations":[
         {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
-        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
         {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"], "weight":0.5},
     ],
 	
