@@ -8,19 +8,19 @@
 
     "startRelationships":{
         "hegemony":-0.6,
-        "luddic_church":0.7,
-        "persean":-0.5,
+        "luddic_church":0.5,
+        "persean":-0.1,
         "sindrian_diktat":0.3,
 		"blue_moon": 0.8,
     },
 
     "morality":"inmoral",
 
-    "diplomacyTraits":["stalwart",],
+    "diplomacyTraits":["stalwart","lowprofile"],
 
     "alignments":{
             "corporate":-0.5,
-            "technocratic":0.3,
+            "technocratic":0.4,
             "militarist":0.8,
             "diplomatic":-0.5,
             "ideological":0.8,

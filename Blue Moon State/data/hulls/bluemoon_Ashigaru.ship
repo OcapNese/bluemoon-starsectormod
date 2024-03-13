@@ -1,0 +1,84 @@
+{
+  "hullName": "Ashigaru",
+  "hullId": "bluemoon_Ashigaru",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/bluemoon/bluemoon_Nobbu_Ashigaru.png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 66,
+  "center": [33, 42],
+  "collisionRadius": 50.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18.5, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [24.5, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35.5, 14],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35.5, -14],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    16, -27,
+    -38, -20,
+    -38, 20,
+    16, 27,
+    42.5, -0
+  ]
+}

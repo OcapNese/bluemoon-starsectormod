@@ -10,11 +10,15 @@
 	"bluemoon_scene_War_Scenario":15,
 	"bluemoon_hypenan_volska": 5,
 	"bluemoon_mecha_battleknight": 5,
+	"bluemoon_Ashigaru_Standart": 5,
+	"bluemoon_Turpin_Aroed": 2.5,
+
 },
 "combatMedium":{
 			"bluemoon_hypenan_volska": 15,
 			"bluemoon_Nobbu_Warcastle_Classic": 5,
 			"bluemoon_mecha_battleknight": 5,
+			"bluemoon_Turpin_Aroed": 10,
 	},
 
 "combatFreighterSmall":{
