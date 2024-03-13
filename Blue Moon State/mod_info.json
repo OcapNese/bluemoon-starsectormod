@@ -2,9 +2,9 @@
 	"id": "Ocap_Bluemoons",
 	"name": "Blue Moon States",
 	"author": "Ocap",
-	"version": "0.0.451 Zapote Update Bugfixes",
+	"version": "0.0.5",
 	"description": "Adds two factions and basic perverted stuff, also Fate (Anime)",
 	"gameVersion":"0.97a-RC11",
-	"modPlugin":"data.scripts.BlueMoonPlugin",
+	"modPlugin":"src.data.scripts.BlueMoonPlugin",
 	"jars":["jars/bluemoon.jar"],
 }
