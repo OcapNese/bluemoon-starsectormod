@@ -109,9 +109,10 @@ BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_To
 ,,,,,,
 ,,,,,,
 BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn’t need to do that""",,
-BMS_Ocp_TechSupport,DialogOptionSelected,$option == BMS_Ocp_TechSupport,,"So I can contact the other guys and tell you want to work with them, in case you erased their numbers. Tell me who, and I will see to it. (May cause unintended effects)","1:BMS_Ocp_TechSupport_Ast: Ast
+BMS_Ocp_TechSupport,DialogOptionSelected,$option == BMS_Ocp_TechSupport,,"""So I can contact the other guys and tell you want to work with them, in case you erased their numbers. Tell me who, and I will see to it."" (May cause unintended effects)","1:BMS_Ocp_TechSupport_Ast: Ast
 2:BMS_Ocp_TechSupport_Oda: Oda
-3:BMS_Ocp_TechSupport_Nobukatsu: Nobukatsu",
+3:BMS_Ocp_TechSupport_Nobukatsu: Nobukatsu
+4:BMS_Ocp_TechSupport_backdown: Back down.",
 BMS_Ocp_TechSupport_Ast,DialogOptionSelected,$option == BMS_Ocp_TechSupport_Ast,"$global.BMS_Ast_Masterquestionasked = false
 FireAll PopulateOptions","""Ast, Ok, it is done.""",,
 BMS_Ocp_TechSupport_Oda,DialogOptionSelected,$option == BMS_Ocp_TechSupport_Oda,"$global.Oda_contact = false
@@ -119,7 +120,7 @@ FireAll PopulateOptions","""Oda, Ok, it is done.""",,
 BMS_Ocp_TechSupport_Nobukatsu,DialogOptionSelected,$option == BMS_Ocp_TechSupport_Nobukatsu,"$global.Oda_contact_nobukatsu = false
 $global.Nobukatsu_contact = false
 FireAll PopulateOptions","""Nobukatsu, Ok, it is done.""",,
-,,,,,,
+BMS_Ocp_TechSupport_Backdown,DialogOptionSelected,$option == BMS_Ocp_TechSupport_backdown,FireAll PopulateOptions,"""Sure.""",,
 #Oda,,,,,,
 BMS_Oda_Salutations,PickGreeting,"$market.id == seduveren_market
 $id==BMS_Oda","ShowPersonVisual
@@ -281,3 +282,10 @@ $faction.id == blue_moon",,"You can find a holo of your face with clown makeup a
 #Greetings,,,,,,
 BMS_Nobu_Greetings,PickGreeting,$faction.id == oda_clan,"ShowPersonVisual
 FireAll PopulateOptions ","""Nobbu? Nobbu… Nobbu""",,
+,,,,,,
+#Double team Doggystyle,,,,,,
+,,,,,,
+BMS_seduveren_market_doggyfucktoy,PopulateOptions,"$market.id == seduveren_market
+$menuState == main",,A bit pathetic,1:BMS_seduveren_market_doggyfucktoy_yes:I want to be used by doggy.,
+BMS_seduveren_market_doggyfucktoy_yes,DialogOptionSelected,$option == BMS_seduveren_market_doggyfucktoy_yes,,"You get bent and knotted by a group of feral lighting hounds from Phantu, they just drag you around the dirt like a bitch, as their cocks keep you locked in place under them.
+Even thought you don’t speak barks, you instictively understand they are insulting you somehow?.Each of them makes sure to make sure you remember every little thing they do to you.",,
