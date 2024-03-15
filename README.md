@@ -45,5 +45,10 @@ And he brought some new toys to play with.
 
 Extended more dialogue options, new ships and a new character.
 
+A new sex scene for every character.
+
 2 new ships
 Rebalancing ships.
+
+0.0.51
+Added an option to backdown from contacts support. 
