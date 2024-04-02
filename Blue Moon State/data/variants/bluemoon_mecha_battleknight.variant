@@ -2,7 +2,7 @@
   "variantId": "bluemoon_mecha_battleknight",
   "hullId": "bluemoon_mecha",
   "displayName": "Battleknight",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 7,
   "quality": 1,
@@ -15,26 +15,29 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "bluemoon_knight_helmet",
-        "WS0005": "gorgonpod",
-        "WS0007": "bluemoon_knight_rightarm",
-        "WS0009": "bluemoon_knight_leftarm"
+        "WS0001": "bluemoon_knight_helmet"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "gorgonpod"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0007": "bluemoon_knight_rightarm"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0009": "bluemoon_knight_leftarm"
+      }
     }
   ],
   "modules": [],

@@ -133,6 +133,11 @@
 			"heavyneedler",
 			"mjolnir",
 			"multineedler",
+			"mjolnir",
+			"heavymauler",
+			"flak",
+			"dualflak",
+			"hephag",
 		],
 	},
 	"priorityWeapons":{

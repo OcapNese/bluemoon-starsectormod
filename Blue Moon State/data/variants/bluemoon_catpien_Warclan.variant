@@ -2,9 +2,9 @@
   "variantId": "bluemoon_catpien_Warclan",
   "hullId": "bluemoon_catpien",
   "displayName": "Warclan",
-  "goalVariant": false,
-  "fluxCapacitors": 9,
-  "fluxVents": 30,
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,20 +13,18 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "bluemoon_miaculpa",
+        "WS0002": "bluemoon_miaculpa",
+        "WS0003": "bluemoon_miaculpa",
+        "WS0008": "bluemoon_meka",
         "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0011": "vulcan",
-        "WS0012": "vulcan"
+        "WS0010": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "ionbeam",
-        "WS0002": "ionbeam",
-        "WS0003": "ionbeam"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -39,9 +37,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0008": "bluemoon_meka"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -70,7 +66,7 @@
   "modules": [],
   "wings": [
     "bluemoon_knight_wing",
-    "broadsword_wing",
-    "cobra_wing"
+    "bluemoon_knight_wing_siege",
+    "piranha_wing"
   ]
 }
