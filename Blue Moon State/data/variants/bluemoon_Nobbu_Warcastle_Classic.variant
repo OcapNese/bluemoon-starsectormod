@@ -2,7 +2,7 @@
   "variantId": "bluemoon_Nobbu_Warcastle_Classic",
   "hullId": "bluemoon_Nobbu_Warcastle",
   "displayName": "Classic",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 17,
   "quality": 1,
@@ -14,38 +14,42 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "bluemoon_nobbu_harpoon",
-        "WS0002": "bluemoon_nobbu_harpoon",
-        "WS0003": "bluemoon_nobbu_sniper",
-        "WS0004": "bluemoon_nobbu_sniper",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan",
-        "WS0007": "vulcan",
-        "WS0008": "vulcan",
-        "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0011": "bluemoon_nobbu_minigun",
-        "WS0012": "bluemoon_nobbu_minigun"
+        "WS0002": "bluemoon_nobbu_harpoon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0003": "bluemoon_nobbu_sniper"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "bluemoon_nobbu_sniper"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan"
+      }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0011": "bluemoon_nobbu_minigun",
+        "WS0012": "bluemoon_nobbu_minigun"
+      }
     }
   ],
   "modules": [],

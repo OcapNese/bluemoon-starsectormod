@@ -159,8 +159,9 @@ public class BlueMoonPlugin extends BaseModPlugin {
 			Ast.setPortraitSprite(Global.getSettings().getSpriteName("characters", "bluemoon_ast"));
 			Ast.setGender(MALE);
 			Ast.setFaction("blue_moon");
-			Ast.setImportance(HIGH);
+			Ast.setImportance(VERY_HIGH);
 			Ast.addTag("military");
+			Ast.addTag("trade");
 			Ast.setId("BMS_Ast");
 
 			Ast.setRankId(FACTION_LEADER);

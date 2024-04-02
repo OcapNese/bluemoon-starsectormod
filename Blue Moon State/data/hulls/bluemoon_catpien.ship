@@ -3,7 +3,7 @@
   "hullId": "bluemoon_catpien",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/bluemoon/bluemoon_Hipogriff.png",
-  "style": "OMEGA",
+  "style": "MIDLINE",
   "height": 400,
   "width": 190,
   "center": [95, 200],

@@ -1,0 +1,36 @@
+{
+  "variantId": "bluemoon_knight_siege",
+  "hullId": "bluemoon_knight",
+  "displayName": "Siege",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "bluemoon_lantepa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "bluemoon_lantepa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "bluemoon_lantepa"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

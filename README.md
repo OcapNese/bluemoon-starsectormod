@@ -52,3 +52,9 @@ Rebalancing ships.
 
 0.0.51
 Added an option to backdown from contacts support. 
+
+0.0.6
+
+Rebalancing.
+A hullmod.
+Writing is hard and I am not good.

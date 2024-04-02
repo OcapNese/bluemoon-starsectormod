@@ -12,7 +12,8 @@
   "shieldRadius": 47.5,
   "viewOffset": 0,
   "builtInMods": [
-    "ground_support"
+    "ground_support",
+    "rugged"
   ],
   "weaponSlots": [
     {

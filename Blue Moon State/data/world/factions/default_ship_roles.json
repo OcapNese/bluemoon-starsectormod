@@ -15,10 +15,17 @@
 
 },
 "combatMedium":{
-			"bluemoon_hypenan_volska": 15,
-			"bluemoon_Nobbu_Warcastle_Classic": 5,
-			"bluemoon_mecha_battleknight": 5,
-			"bluemoon_Turpin_Aroed": 10,
+	"bluemoon_hypenan_volska": 15,
+	"bluemoon_Nobbu_Warcastle_Classic": 5,
+	"bluemoon_mecha_battleknight": 5,
+	"bluemoon_Turpin_Aroed": 10,
+	"bluemoon_genet_Darkhorse": 2.5
+	},
+	"combatLarge":{
+	"bluemoon_Nobbu_Warcastle_Classic": 10,
+	"bluemoon_mecha_battleknight": 5,
+	"bluemoon_Turpin_Aroed": 10,
+	"bluemoon_genet_Darkhorse": 10
 	},
 
 "combatFreighterSmall":{
@@ -32,6 +39,6 @@
 },
 
 	"combatCapital":{
-		"bluemoon_catpien_Warclan":15,
+		"bluemoon_catpien_Warclan":7.5,
 	},
 }
