@@ -274,7 +274,8 @@ $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master6","$Nobukatsu_master6 = true
 FireAll PopulateOptions","Nobukatsu just looks at you for a second before sprinting towards you, hugging you as he sobs, just managing to mutter ""Thanks $playerName""",,
 BMS_Nobukatsu_Master_thanks,DialogOptionSelected,"$Nobukatsu_master6
-$option == BMS_Nobukatsu_Master",FireAll PopulateOptions,"""I really cannot, Sister needs me, but I know you, you will manage without me""",,
+$option == BMS_Nobukatsu_Master","
+FireAll PopulateOptions","""I really cannot, Sister needs me, but I know you, you will manage without me""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -288,7 +289,7 @@ $faction.id == oda_clan ",,"A young $theFaction officer has taken a liking to yo
 relLevelFavorableOdaclan,RelationshipLevelDesc,"$faction.rel == FAVORABLE
 $faction.id == oda_clan ",,"The $faction Nobu have started talking about your value as a reliable asset, some of them are willing to give you some extra leeway on the loot distrbution.This shows mostly as low-grade surplus military equipment, and pinning your crimes on a rival Nobu.",,
 relLevelNeutralOdaclan,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == oda_clan ",,"You're not generally well known by $faction officials, for good or ill, nobu make caricatures of your face to use in comics,just like with every other spacer.",,
+$faction.id == oda_clan ",,"You're not generally well known by $faction officials, for good or ill, nobu make caricatures of your face to use in comics, just like with every other spacer.",,
 relLevelSuspiciousOdaclan,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == oda_clan ",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. You have caught more than one Nobu stealing bolts from your ships.",,
 relLevelInhospitableOdaclan,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
@@ -296,7 +297,7 @@ $faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus 
 relLevelHostileOdaclan,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu’s have an industrial line set up for the production of pots bearing a resemblence to your second’s ass and another for bats in image of the Emperor’s Sword.",,
 relLevelVengefulOdaclan,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == oda_clan ",,"Once a foolish Nobu said the name of your flagship, he got burned at the stake, and his ashes stomped into the dirt.Nobu History nerds are stalking Nobu-pedia begging for the opportunity to change ""is"" to ""was"".",,
+$faction.id == oda_clan ",,"Once a foolish Nobu got caught writing smutty fanfic about you, he got burned at the stake, and his ashes stomped into the dirt. Nobu History nerds are stalking Nobu-pedia begging for the opportunity to change ""is"" to ""was"".",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -344,4 +345,47 @@ AddText ""You manage dodge a flying Nobu, but not before he puts a small note on
 Bluemoon_flavorTextMarket_seduveren_Ilegal,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == blue_moon
 $market.id == seduveren_market score100
-$player.transponderOn == false","AddText ""You enter the bay of a half destroyed Catpien, the place your contact told you about, scarcely crewed by a nobu contigent, the infrastructure forces you to crouch and stumble as you try to talk to the portboss, it smells like the sea."" marketFlavorTextColor",,,
+$player.transponderOn == false","AddText ""You enter the bay of a half destroyed Catpien, the landing place your contacts told you about, scarcely crewed by a nobu contigent, the infrastructure forces you to crouch and stumble as you try to talk to the portboss, it smells like the sea."" marketFlavorTextColor",,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#Questy Quests,,,,,,
+# Space Octopus Mission,,,,,,
+#bluemoon_spaceoct_Blurb1,bluemoon_spaceoct_blurb,,,"""Ocp asked me to get an special animal for her, it is very very secret. No one shall see you. Simple.""",,
+#bluemoon_spaceoct_OfferOption1,bluemoon_spaceoct_option,,,,bluemoon_spaceoct_start:Ask about catching this curious animal,
+#bluemoon_spaceoct_BlurbBar1,bluemoon_spaceoct_blurbBar,,,"At the end of the bar, a rakish $bluemoon_spaceoct_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps.",,
+#bluemoon_spaceoct_OfferOptionBar1,bluemoon_spaceoct_optionBar,,,,bluemoon_spaceoct_startBar:Find out what the rakish $bluemoon_spaceoct_manOrWoman at the end of the bar is up to,
+#bluemoon_spaceoct_OfferTextBar1,DialogOptionSelected,$option == bluemoon_spaceoct_startBar,"$missionId = bluemoon_spaceoct_mission
+Highlight $bluemoon_spaceoct_dist $bluemoon_spaceoct_reward
+Call $bluemoon_spaceoct_ref showMap ""Destination: $bluemoon_spaceoct_systemName""","The $bluemoon_spaceoct_manOrWoman watches your approach. ""You want in on the business, that right?"" $heOrShe says, amused at your audacity.
+
+""Let me give you a job so easy that any rad-addled spacer could manage it. But,"" $heOrShe shrugs regretfully, ""It's a real shame how many of 'em just can't follow instructions and end up getting tossed out an airlock."" $HeOrShe laughs like this is a good joke.
+
+""Deliver the item to the specified location in $bluemoon_spaceoct_systemName, bluemoon_spaceoct_dist light years away."" $HeOrShe flips a TriPad out of $hisOrHer coat. The display shows $bluemoon_spaceoct_aOrAnThing. ""This is it. The reward is $bluemoon_spaceoct_reward credits. Don't be seen making the drop, and don't tell anyone about it.""","contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+#bluemoon_spaceoct_OfferTextContact1,DialogOptionSelected,$option == bluemoon_spaceoct_start,"$missionId = bluemoon_spaceoct
+Highlight $bluemoon_spaceoct_dist $bluemoon_spaceoct_reward
+Call $bluemoon_spaceoct_ref showMap ""Destination: $bluemoon_spaceoct_systemName""","$PersonName looks you over silently for a moment, then nods, seemingly satisfied.
+
+""I don't want any questions, it's a simple task. Deliver this item to the specified location in $bluemoon_spaceoct_systemName bluemoon_spaceoct_dist light-years away. Don't be seen making the drop, and don't tell anyone about it. The reward bluemoon_spaceoct_reward credits."" $HeOrShe taps at $hisOrHer datapad and your display is overlaid with bluemoon_spaceoct_aOrAnThing. 
+
+""That is all there is to it. Do you accept my terms?""","contact_accept:Accept
+contact_decline:Decline",
+# space octopus - node interaction,,,,,,
+#bluemoon_spaceoct_PrintHostilesText,OpenInteractionDialog,"$bluemoon_spaceoct_target score:1000
+IsSeenByAnyFleet
+Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, and dropping off the item at the specified location is extremely inadvisable.",defaultLeave:Leave,
+#bluemoon_spaceoct_ObjectInteraction,OpenInteractionDialog,"$bluemoon_spaceoct_target score:1000
+Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,"Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $bluemoon_spaceoct_personName. The $bluemoon_spaceoct_bait is held gently in a cargo drone's manipulator arms, ready for deployment.
+
+The go-button flashes softly on your command interface.","bluemoon_spaceoct_scan:Drop it off in a stable orbit
+defaultLeave:Leave",
+#bluemoon_spaceoct_ObjectScan,DialogOptionSelected,$option == bluemoon_spaceoct_scan,"$bluemoon_spaceoct_completed = true
+Call $bluemoon_spaceoct_ref updateStage","The bay doors open, and the cargo drone extends its arms. Then, gently, its manipulators release.
+
+It is now done. Whatever 'it' is.",defaultLeave:Leave,

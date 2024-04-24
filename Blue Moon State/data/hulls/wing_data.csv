@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number,,,,,,,,,,,,,,,,,,,,,,,,,
-bluemoon_knight_wing,bluemoon_knight_errant,"Bluemoon,bluemoon_bp",0,,6,18,V,5000,500,,2,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,
-bluemoon_knight_wing_siege,bluemoon_knight_siege,"Bluemoon,bluemoon_bp",0,,6,18,V,5000,500,,2,FIGHTER,Heavy Fighter,10,20000,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,
+bluemoon_knight_wing,bluemoon_knight_errant,"Bluemoon,bluemoon_package",0,,6,18,V,5000,500,,2,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,
+bluemoon_knight_wing_siege,bluemoon_knight_siege,"Bluemoon,bluemoon_package",0,,6,18,V,5000,500,,2,FIGHTER,Heavy Fighter,10,20000,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,104

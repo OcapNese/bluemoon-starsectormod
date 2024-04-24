@@ -14,8 +14,9 @@ id,type,text1,text2,text3,notes
 blue_moon,FACTION,"The Bluemoon States are a isolated conglomeration of outcasts and ex-mercenaries, they serve as a refuge of the desesperate and downtrodden.
 They are under the leadership of a exiled knight of the Order of Ludd “Ast”, who claims to have talked to saints, thus ensuring his expulsion and eventual crusade out into the outer reaches of the sector and the founding of the Bluemoon.
 Ties with pirate contacts and his heretical comdemnation doesn’t earn him a lot of friends within the major players of the sector.",,,
-oda_clan,FACTION,"The (Self Proclaimed) Heavenly Emperor Demon King Oda Nobunaga has come to present his claim on the sector!
-The Oda Clan is here to unify the sector, Nobbu launch raids and pillage all over the sector. ",,,
+oda_clan,FACTION,"The Devil King of the Sixth Heaven Oda Nobunaga has come to present his claim on the sector!
+The genius strategist is here to unify the sector, while her mind is sound, her troops are willing and the steel is strong.
+War is in the horizon!",,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -31,12 +32,10 @@ bluemoon_scene,SHIP,"The Scene has a curious origin, a trader once tried to retr
 And the rest is history.",,,
 bluemoon_knight_errant,SHIP,"The proud knights of the Order have taken arms to conquest this the War in Space, they shall fell the enemy fighters in combat.",,,
 bluemoon_genet,SHIP,"The Rider is a custom-made design specially designed to reduce the depency on foreign designs by the Bluemoon, with specific decisions taken by the Grandmaster of the Order, in clear disregard for his advisors, nominally it covers the lack of sustained firepower in the ranks of the Armada, the personal opinion of the captains in charge of them may differ.
-It is said that Genets are made in the form of an ancient symbol, most people think that that’s just Ocp lying to hide the wonkiness of the design.
-
-""I think i saw enough cat urine for a lifetime, but creating a material based on the chemical composition of catnip was an interesting endeavour."" - Ocp, Lead Bluemoon Engineer",,,
-,,,,,
-,,,,,
-,,,,,
+It is said that Genets are made in the form of an ancient symbol, most people think that that’s just Ocp lying to hide the wonkiness of the design.","""I think i saw enough cat urine for a lifetime, but creating a material based on the chemical composition of catnip was an interesting endeavour."" - Ocp, Lead Bluemoon Engineer",,
+bluemoon_mecha,SHIP,"The standart Armor used by the Knights, equipped with a rocket launcher and a simple ion weapon",,,
+bluemoon_Turpin,SHIP,"Forward and shieldless, the Turpin is able to concentrate firepower on a singular place.",,,
+bluemoon_Ashigaru,SHIP,"Small and Fast the Ashigaru is a simple scouting ship, it has an oversized energy weapon, that keeps a sleek design.",,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -51,3 +50,19 @@ Bluemoon_Phantu_planet,CUSTOM,"Phantu is the seat of the Citizen Guard, the arme
 Bluemoon_Moonial_planet,CUSTOM,"Moonial, the Land of Mountains, is the closest thing you can find to a core world in the Blue moon repertorie. It has a nice port and some cute government buildings.",,"Moonal is the first planet to pledge allegiance to the Blue Moon Flag, it’s the seat of the political and mlitary power of the Order.",
 Bluemoon_Ethoi_planet,CUSTOM,"Ethoi is a small agrarian world, with a nascent metalurgic indrustry after the impact of multiple small metal-rich asteroids close to from the population centers.",,"A newer colony created by the sons of the Aristocracy of Estoul, in order to carve out a niche for themselves, it’s mostly supported in secret by their families.",
 Bluemoon_Seduveren_planet,CUSTOM,"The Great planet of Seduveren, Capital of the Oda Clan.",,"The Great Capital of the Oda, it’s magnificent castles dot the landscape of the  jungle, over the military and industrial powerhouses of underground factories that feed the lifeblood of Clan.",
+,,,,,
+#Weapony Weapons,,,,,
+bluemoon_lampe,WEAPON,"The bread and butter of locally produced ordenance, the Lampe is based on an autocannon, it sacrifices it’s reliability and usability for firepower.",,,
+bluemoon_tv,WEAPON,"A reporpused commercially available display screen, the Scenario is a walking information booth, sponsored by the Estoul houses. It is surprisingly able to defend the ship it is attached to from fighters and minor ordenance.",,,
+bluemoon_roset,WEAPON,A simple missile launcher.,,,
+bluemoon_meka,WEAPON,"An energy sword, with a very short range, to duel other fighters and break shields.",,,
+bluemoon_nobbu_minigun,WEAPON,"The intended purposed of Nobbu Minigun is to protect the ship from overwhelming enemy advantage by shooting in every direction, this causes it to be deemed horribly inefficient by most spacers. Trying to tell this to the Nobu has so far failed.",,,
+bluemoon_nobbu_harpoon,WEAPON,"The Troop Launcher barely resembles it’s original design as a aircraft bay, it’s small ships stripped of armor and filled up with a explosive charge.",,,
+bluemoon_nobbu_sniper,WEAPON,"A powerful cannon, it has amazing range and damage  ",,,
+bluemoon_miaculpa,WEAPON,"The Miaculpa is a long range electrical suppresor, intended to allow long range disabling of enemy ships.",,,
+bluemoon_lantepa,WEAPON,"An specialized bormbarment  based on a Knights rocket launcher, downsized to fit on a fighter chassis.",,,
+bluemoon_pelpa,WEAPON,"The Pelpa Launcher is a hand operated rocket launcher, it comes with an in-engine reload system, but is more cumbersome than manual reload that is facilitated by the exposed barrel.
+Automated systems can make use of it, but it requires a pair of external mecanical hands. The warhead is similar to one found on low-level industrial explosives, utterly inefficient on space conditions.
+Hundreds of them populate the scrapyards of Bluemoon polities.",,,
+,,,,,
+bluemoon_milk,RESOURCE,"Goat milk is a traditional drink within the Bluemoon states, every bag of it contains enough for a hundred people.",,,

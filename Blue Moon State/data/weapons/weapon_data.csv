@@ -1,14 +1,14 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Lampe Cannon,bluemoon_lampe,1,,1000,750,,350,,10,18,10,,,,KINETIC,175,,0,1.2,1,,0,28,7,10,,700,,,45,,,,"bluemoon_package, bluemoon",,,,Anti Shield,,,,,,,,,,4.127
-War Scenario,bluemoon_tv,1,,600,800,65,,,0,100,7,,,,ENERGY,,50,0,0.2,,,,,,,2800,,,,,,,PD,"bluemoon_package, bluemoon",,,,Point Defense,,,,,,,,,,17.5
-Knight Roset,bluemoon_roset,1,,425,1000,,700,,15,30,3,,,,HIGH_EXPLOSIVE,0,,0,25,1,,0,0,0,,,600,50,20,175,,,SYSTEM,"bluemoon_package, bluemoon",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,11.25
+Lampe Cannon,bluemoon_lampe,0,,1000,750,,350,,15,6,10,,,,KINETIC,175,,0,1.2,1,,0,28,8,4,,700,,,45,,,,"Bluemoon,bluemoon_package",,,,Anti Shield,,,,,,,,,,4.127
+War Scenario,bluemoon_tv,1,,600,650,120,,,0,100,7,,,,ENERGY,,40,0,0,,,,,,,3000,,,,,,,PD,"Bluemoon,bluemoon_package",,,,Point Defense,,,,,,,,,,17.5
+Knight Roset,bluemoon_roset,1,,425,1000,,700,,15,30,3,,,,HIGH_EXPLOSIVE,0,,0,25,1,,0,0,0,,,600,50,20,175,,,SYSTEM,"Bluemoon,bluemoon_package",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,11.25
 Mecanical Lance,bluemoon_meka,1,,1000,55,,450,,20,35,10,,,,KINETIC,75,,0,1.2,1,,0,28,7,10,,1000,,,45,,,SYSTEM,,,,,Anti Shield,,,,,,,,,,4.127
-Minigun Nobbu,bluemoon_nobbu_minigun,1,,4500,600,,75,,4,56,14,100,4,,HIGH_EXPLOSIVE,25,,0,0.15,3,,0,65,2,10,,1000,,,45,,,PD,"bluemoon_package, bluemoon",,,,Anti Armor,,,,,,,,,,4.5
-Nobu Troop Launcher,bluemoon_nobbu_harpoon,1,,3000,2500,,1250,,20,10,10,12,,,HIGH_EXPLOSIVE,0,,0,8.25,4,0.25,0,0,0,,,400,100,12.5,150,,,DO_NOT_AIM,"bluemoon_package, bluemoon",,,,Finisher,Medium,Medium,,,,,,,TRUE,12
-Nobbu Sniper,bluemoon_nobbu_sniper,3,,45000,1500,,1250,,10,60,28,,,,KINETIC,1500,,0,25,3,,0,10,2,10,,4000,,,50,,,,"bluemoon_package, bluemoon",,,,Finisher,,,,,,,,,,4.25
-Miaculpa,bluemoon_miaculpa,2,0.4,3000,1000,,150,750,0,10,16,10,1,2,ENERGY,125,,0.25,0.05,5,0.02,0,10,3,2,,1500,,,,,,,"bluemoon_package, bluemoon",,,,Suppression,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,22.75
-Lantepa,bluemoon_lantepa,1,,3000,450,,150,,0,10,5,,,,ENERGY,100,,0,0.3,5,0.02,0,10,3,2,,150,,,,,,SYSTEM,"bluemoon_package, bluemoon",,,,Anti Shield,,,,,,,,,,22.75
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Minigun Nobbu,bluemoon_nobbu_minigun,1,,4500,600,,75,,4,56,14,100,4,,HIGH_EXPLOSIVE,25,,0,0.15,3,,0,65,2,10,,1000,,,45,,,PD,"Bluemoon,bluemoon_package",,,,Anti Armor,,,,,,,,,,4.5
+Nobu Troop Launcher,bluemoon_nobbu_harpoon,1,,3000,2500,,1250,,20,10,10,12,,,HIGH_EXPLOSIVE,0,,0,8.25,4,0.25,0,0,0,,,400,100,12.5,150,,,DO_NOT_AIM,"Bluemoon,bluemoon_package",,,,Finisher,Medium,Medium,,,,,,,TRUE,12
+Nobbu Sniper,bluemoon_nobbu_sniper,1,0.2,45000,1500,,1250,,10,60,28,,,,KINETIC,1500,,0,25,3,,0,10,2,10,,4000,,,50,,,,"Bluemoon,bluemoon_package",,,,Finisher,,,,,,,,,,4.25
+Miaculpa,bluemoon_miaculpa,2,0.4,3000,1000,,150,275,0,10,16,15,2,3,ENERGY,175,,0.25,0.05,3,0.02,0,10,3,2,,1750,,,,,,,"Bluemoon,bluemoon_package",,,,Suppression,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,22.75
+Lantepa,bluemoon_lantepa,1,,3000,450,,150,,0,10,5,,,,ENERGY,100,,0,0.3,5,0.02,0,10,3,2,,150,,,,,,SYSTEM,"Bluemoon,bluemoon_package",,,,Anti Shield,,,,,,,,,,22.75
+Pelpa Defense System,bluemoon_pelpa,0,,200,350,,35,,3,70,1,3,0.25,,FRAGMENTATION,20,,0,0.25,3,0.35,0,5,1,20,,450,,,5,,,PD,"Bluemoon,bluemoon_package",,,,Point Defense,,,,,,,,,,0.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MECHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Meca Helmet,bluemoon_knight_helmet,1,,200,1000,75,,,0,20,4,,,,ENERGY,,60,0.1,0.1,,,,,,,2400,,,,,,,"SYSTEM,PD","no_drop, no_drop_salvage",,,,,,,,,,,,,,18

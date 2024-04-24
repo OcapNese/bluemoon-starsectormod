@@ -15,15 +15,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "bluemoon_knight_helmet"
+        "WS0001": "bluemoon_knight_helmet",
+        "WS0005": "gorgonpod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "gorgonpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

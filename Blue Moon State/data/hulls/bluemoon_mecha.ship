@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "dedicated_targeting_core",
-    "ballistic_rangefinder"
+    "missleracks"
   ],
   "builtInWeapons": {
     "WS0001": "bluemoon_knight_helmet",
