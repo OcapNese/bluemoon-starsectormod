@@ -59,7 +59,7 @@ Rebalancing.
 A hullmod.
 Writing is hard and I am not good.
 
-0.0.61
+0.0.6.1
 Bugfixes
 Fixed ids, the blueprint now gives you everything, as it was intended.
 Small graphical updates to cargo and characters.
