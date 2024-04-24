@@ -169,11 +169,8 @@ public class BlueMoonPlugin extends BaseModPlugin {
 
 			Ast.getStats().setSkillLevel(Skills.INDUSTRIAL_PLANNING, 1);
 
-
-
 			Moonial_market.getCommDirectory().addPerson(Ast, 1);
 			Moonial_market.addPerson(Ast);
-
 
 		}
 
