@@ -63,3 +63,4 @@ Writing is hard and I am not good.
 Bugfixes
 Fixed ids, the blueprint now gives you everything, as it was intended.
 Small graphical updates to cargo and characters.
+
