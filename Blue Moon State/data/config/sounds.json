@@ -1,0 +1,72 @@
+{
+
+#collapseopen MUSIC
+	"music":{
+"music_bluemoon_bms_base":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_bms_base.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	"music_bluemoon_bms_hostile":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_bms_hostile.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	"music_bluemoon_bms_friendly":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_bms_friendly.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	"music_bluemoon_oda_base":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_oda_base.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	"music_bluemoon_oda_hostile":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_oda_hostile.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	"music_bluemoon_oda_friendly":[
+	{
+"source":"sounds/music/",
+"volume":0.2,
+"files":[
+"music_bluemoon_oda_friendly.ogg",
+],
+"randomStart":true,
+		},
+
+	],
+	},
+}
