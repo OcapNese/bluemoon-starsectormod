@@ -37,7 +37,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["pirate","base_bp","bluemoon_package"],
+		"tags":["pirate","base_bp","bluemoon_package","hegemony",],
 		"hulls":[
 			"cerberus",
 			"crig",
@@ -76,7 +76,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp","bluemoon","bluemoon_bp"],
+		"tags":["base_bp","bluemoon","bluemoon_package"],
 		"fighters":[
 			"broadsword_wing",
 		],
@@ -87,7 +87,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["standard","pirates","bluemoon","bluemoon_bp","base_bp", "lowtech_bp","missile_bp",],
+		"tags":["standard","pirates","bluemoon","bluemoon_package","base_bp", "lowtech_bp","missile_bp",],
 		"weapons":[
 			"pdlaser",
 			"taclaser",
