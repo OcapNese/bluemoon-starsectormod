@@ -65,3 +65,6 @@ Bugfixes
 Fixed ids, the blueprint now gives you everything, as it was intended.
 Small graphical updates to cargo and characters.
 
+0.0.6.2
+
+Actually fixed the Id's this time, now they can actually use the factional ships
