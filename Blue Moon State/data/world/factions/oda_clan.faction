@@ -25,7 +25,7 @@
 	#multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-		"bluemoon_package_bp":1.5,
+		"bluemoon_package":1.5,
 		},
 		"hulls":{
 		},
@@ -37,7 +37,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["pirate","base_bp","hegemony"],
+		"tags":["pirate","base_bp","bluemoon_package"],
 		"hulls":[
 			"cerberus",
 			"crig",

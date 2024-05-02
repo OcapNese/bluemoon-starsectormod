@@ -30,7 +30,7 @@
 	#multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-		"bluemoon_package_bp":1.5,
+		"bluemoon_package":1.5,
 		},
 		"hulls":{
 		},
@@ -42,7 +42,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["bluemoon","bluemoon_package_bp","base_bp",],
+		"tags":["bluemoon","bluemoon_package","base_bp",],
 		"hulls":[
 			"cerberus",
 			"crig",
@@ -81,7 +81,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp","bluemoon","bluemoon_bp"],
+		"tags":["base_bp","bluemoon","bluemoon_package"],
 		"fighters":[
 			"broadsword_wing",
 		],
@@ -92,7 +92,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["standard","independent","bluemoon","bluemoon_bp","base_bp", "lowtech_bp","missile_bp",],
+		"tags":["standard","independent","bluemoon","bluemoon_package","base_bp", "lowtech_bp","missile_bp",],
 		"weapons":[
 			"pdlaser",
 			"taclaser",
