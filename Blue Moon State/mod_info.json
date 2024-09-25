@@ -2,7 +2,7 @@
 	"id": "Ocap_Bluemoons",
 	"name": "Blue Moon States",
 	"author": "Ocap",
-	"version": "0.0.6.2 Algabaría",
+	"version": "0.0.6.3 Phoenix",
 	"description": "Adds factions and basic perverted stuff, also Fate (Anime)",
 	"gameVersion":"0.97a-RC11",
 	"modPlugin":"src.data.scripts.BlueMoonPlugin",
