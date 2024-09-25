@@ -5,20 +5,20 @@ BMS_AstAskForSupplies,PopulateOptions,"$market.id == Moonial_market
 $id== BMS_Ast",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
 BMS_AstAskForSuppliesOption,DialogOptionSelected,$option == BMS_AstAskForSupplies,"AddRemoveCommodity supplies 20
 $gavePlayerFreeSupplies = true 3
-FireAll PopulateOptions","""Oh you need more, i don’t have access to the storage but I can give a bit of my personal stash. Onwards to adventure, fellow explorer.""",,
+FireAll PopulateOptions","""Oh you need more, i don�t have access to the storage but I can give a bit of my personal stash. Onwards to adventure, fellow explorer.""",,
 BMS_AstAskForSuppliesDenied,DialogOptionSelected,"$gavePlayerFreeSupplies
 !$gavePlayerBigLoad
-$option == BMS_AstAskForSupplies",,"""Captain, you want more? that’s greedy. Let’s see how much you want it, Come over here, i have a use for your mouth""","1:BMS_Beggingforit:”Go down into his house” 
+$option == BMS_AstAskForSupplies",,"""Captain, you want more? that�s greedy. Let�s see how much you want it, Come over here, i have a use for your mouth""","1:BMS_Beggingforit:�Go down into his house� 
 2:BMS_notsure:""I would rather not.""",
 BMS_Beggingforit,DialogOptionSelected,$option == BMS_Beggingforit,"AddRemoveCommodity supplies 50
 $gavePlayerBigLoad = True 30
 $gavePlayerBigLoadfirst = true
 AdjustRepActivePerson 2
-FireAll PopulateOptions","Your shuttle goes down into the planet and towards the Grandmaster’s house. As a set of guards let you enter his residence, you realize you sold yourself cheap.
-You don’t get a lot of time to think about it as the moment you’re in his room, you find yourself pushed onto your knees, giving a enthusiastic service, bobbing your head up and down across his meat.
-""It seems you’re hungry for it?"" Ast smirks full of unbridled confidence ""How does it feel, are you enjoying it?""
+FireAll PopulateOptions","Your shuttle goes down into the planet and towards the Grandmaster�s house. As a set of guards let you enter his residence, you realize you sold yourself cheap.
+You don�t get a lot of time to think about it as the moment you�re in his room, you find yourself pushed onto your knees, giving a enthusiastic service, bobbing your head up and down across his meat.
+""It seems you�re hungry for it?"" Ast smirks full of unbridled confidence ""How does it feel, are you enjoying it?""
 He lets you set the pace, and you take advantage of it, trying to lap up every little bit of delicious pre out of him, your dedication manages to force him to let out a quick yap.
-""Do..n’t think it is that easy…"" He manages to stammer out as you increase your greedy service, when suddenly he pulls your hair and pushes down, you have just a second to register it when it starts to fill your mouth up, it is salty and warm, and yey it never seems to stop coming out. You’re left in that position for what seems like an eternity, an unending tide of cum washing over your mouth, until finally it subsides.
+""Do..n�t think it is that easy�"" He manages to stammer out as you increase your greedy service, when suddenly he pulls your hair and pushes down, you have just a second to register it when it starts to fill your mouth up, it is salty and warm, and yey it never seems to stop coming out. You�re left in that position for what seems like an eternity, an unending tide of cum washing over your mouth, until finally it subsides.
 ""That was great, if you need some help another time, you know who to call."" With your business done, you return to your shuttle.
 It was a bit rough, but atleast you got your supplies, right?",,
 BMS_BeggingforitSeconds,DialogOptionSelected,"$gavePlayerBigLoadfirst == true
@@ -27,17 +27,17 @@ $gavePlayerBigLoad = True 30
 $gavePlayerBigLoadfirst = true
 AdjustRepActivePerson 2
 FireAll PopulateOptions","Your shuttle goes down again, you seem to already know the way. As you make your way towards the entrance, you realize you sold yourself so cheap one more time.
-You don’t get a lot of time to think about it, as the moment you’re in his room,you can see him eagerly waiting for you, Ast simply signals down and you go down once again.
-""You seem so needy, couldn’t live without it? Right?"" Ast has this air of cockyness around him ""Well, It would be cruel to deny you the help you crave, let’s have some fun""
-This time, he is meticulous, holding your head just far enough that you can take in what you’re about to do. His throbbing length, a monument to depravity so tantalizing close and so eager to play.
+You don�t get a lot of time to think about it, as the moment you�re in his room,you can see him eagerly waiting for you, Ast simply signals down and you go down once again.
+""You seem so needy, couldn�t live without it? Right?"" Ast has this air of cockyness around him ""Well, It would be cruel to deny you the help you crave, let�s have some fun""
+This time, he is meticulous, holding your head just far enough that you can take in what you�re about to do. His throbbing length, a monument to depravity so tantalizing close and so eager to play.
 
 You can feel the deep aroma that it makes from here, drolling for just one taste of it. You try to go for it, but he swats you down ""Hey, first I want some work done over here""as he pushes your head towards his balls.
 Taking the opportunity, you start massaging both of them, your mind focused on the load that they are getting ready for you. You gradually work your way up, swapping between them and trying to go higher.
-As you expertly juggle this act, he starts to break his facade, moaning and wimping, as you’re about to tease him about it, he pulls you in and shuts you up with some deep thrusting into your mouth.
+As you expertly juggle this act, he starts to break his facade, moaning and wimping, as you�re about to tease him about it, he pulls you in and shuts you up with some deep thrusting into your mouth.
 As your brain is still understanding the tremors of his humping, your mouth recieves a shockwave of a pretty recognizable taste.
 His manhood is down your throat and depositing seed into your vowels, as your mind is unable to do more than stay put and take it, his overflowing spunk just filling every crevice it finds, until he pulls out.
-A few of the drops drip into your face, that you diligently lap up, you wouldn’t want to let it go to waste, right?
-""That was so nice of you, cutie. I’m sure we can do this again later, but you drained me pretty well, see you $playerName""",,
+A few of the drops drip into your face, that you diligently lap up, you wouldn�t want to let it go to waste, right?
+""That was so nice of you, cutie. I�m sure we can do this again later, but you drained me pretty well, see you $playerName""",,
 BMS_notsure,DialogOptionSelected,$option == BMS_notsure,FireAll PopulateOptions,"He nods ""Sure, go at your own pace""",,
 BMS_thatsenough,DialogOptionSelected,$option == BMS_thatsenough,DismissDialog,,,
 BMS_wait,DialogOptionSelected,$option == BMS_wait,FireAll PopulateOptions,"Ast reappears on the monitor ""Yes, $playerName, at your service what do you want?"" He seems oddly tired.
@@ -48,41 +48,41 @@ The comms resolve to show Ast doing a complicated manouver as he jumps over his 
 BMS_convGreetingAst,PickGreeting,"$contact_printedFirstReturnGreeting
 $market.id == Moonial_market
 $id== BMS_Ast","$contact_printedFirstReturnGreeting = false
-ShowPersonVisual","As the secretary passes you over to Ast’s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, intended for emergency requests. Should you press it?","1:BMS_wait:Wait to the sound of static
+ShowPersonVisual","As the secretary passes you over to Ast�s personal comms, you manage to see that the Grandmaster has installed an emergency failsafe, intended for emergency requests. Should you press it?","1:BMS_wait:Wait to the sound of static
 2:BMS_Asthack:Big Red Shiny Button!
 3:BMS_thatsenough:I am out, cutt comms",
 ,,,FireAll PopulateOptions,"
 ",,
 BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the Grandmaster having some fun with a particularly large phallic toy, he is desperately trying hopping up and down it, his aim a bit off he falls of the bed, the toy still stuck inside him and manages to land face first onto the computer.You can see his face plasted against the camera, as it becomes red as a firework when he realizes his camera is on. You can see him scream to his subordinate and quickly to throw a towel over himself, as he shuts down the camera.","1:BMS_Astpekaboo:Wait, for him to be ready.",
 BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service, what do you want?"" He seems oddly calm.",,
-BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, the Knights got angry with me the last time i got pounded by a cutie like you, it got all over the news.","1:BMS_AstSexTop:That’s fine with me.
+BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, the Knights got angry with me the last time i got pounded by a cutie like you, it got all over the news.","1:BMS_AstSexTop:That�s fine with me.
 2:BMS_AstSex_Frottage:Maybe we can do a bit of sword-fighting.
 3:BMS_AstSex_Nop:Later.",
 BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,,"Ast makes a funny expression, a bit surprised you actually accepted that easily. ""Well then, come over here, lad, i will gladly accept this offer""
 Your shuttle comes down into the planet side, a young squire guards your entry into the citadel, proudly guiding the visitors to the compound. 
 Some of the guards seem to stare at you for a bit to long, but they are nevertheless bound to let you pass.",1:BMS_AstSexTop_goon:Continue.,
-BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast makes a point of jumping on top of you, the moment you pass throught into the main castle, hugging you from behind ""Don’t you think it is exciting?~""
+BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast makes a point of jumping on top of you, the moment you pass throught into the main castle, hugging you from behind ""Don�t you think it is exciting?~""
 You can feel him prodding behind you, whispering sweet nothings, with his dick hard against your buttocks, You remark that it is bit uncomfortable walking while in such a precarious position.
-Ast tries to position himself in a more comfortable way but he ends ups slipping in. ""Shit"" You both stop for a moment, barely able to hold in a moan, Ast’s face distraught.
-You think one of squires saw you, but if they did, they didn’t react. Ast recomposes himself and pushes you forward eventually making it to his room.
+Ast tries to position himself in a more comfortable way but he ends ups slipping in. ""Shit"" You both stop for a moment, barely able to hold in a moan, Ast�s face distraught.
+You think one of squires saw you, but if they did, they didn�t react. Ast recomposes himself and pushes you forward eventually making it to his room.
 
 In which he pushes you against the bed, You can feel his length extend over your backside searching for a way into your nethers. He finally finds it, and with a heavy shove, pierces all the way in at once. ""How does that feel my little cumslut, do you like it?"" He starts drilling in in a messy and pushy manner, trying to squeeze out as much as he can out of you. ""Do you want me to touch in that way? Kinky""
-His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let’s end this.,
-BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You’re so nice"" he manages to sneak before sleep claims him. You return to your ship, content.",,
+His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let�s end this.,
+BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You�re so nice"" he manages to sneak before sleep claims him. You return to your ship, content.",,
 BMS_Ast_Loredump,PopulateOptions,"$market.id == Moonial_market
-$id== BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what’s your story?""",
-BMS_Ast_Loredump2.1,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic Church, they didn’t like that, the saints gave me a ride all the way to the moon, I know it doesn’t sound that impressive, but this was before FTL, so I could grab my boi Roland’s sanity, I saved him at the end, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and I got exiled out of the core worlds""",,
-BMS_Ast_Loredump2.2,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"""After my exile from the core worlds, the Church sent me in a forced prilgrimage all the way over here, to find a ancient shrine or something, never found it. I managed to track it down to this system, A lot of very powerful people were doing some very unchilvarous things, like looting and stealing from the scavengers, and they didn’t like it one bit when I started beating up some of their goons"" 
+$id== BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what�s your story?""",
+BMS_Ast_Loredump2.1,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic Church, they didn�t like that, the saints gave me a ride all the way to the moon, I know it doesn�t sound that impressive, but this was before FTL, so I could grab my boi Roland�s sanity, I saved him at the end, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and I got exiled out of the core worlds""",,
+BMS_Ast_Loredump2.2,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"""After my exile from the core worlds, the Church sent me in a forced prilgrimage all the way over here, to find a ancient shrine or something, never found it. I managed to track it down to this system, A lot of very powerful people were doing some very unchilvarous things, like looting and stealing from the scavengers, and they didn�t like it one bit when I started beating up some of their goons"" 
 Ast takes a sip of water. ""So they send these big ass guys in power armor, kind of looked like my boys back in France, so I challenged them to an honorable duel, that they started by shooting at me.""
-""I expected them to be stronger, really, they ran the moment I used my horn, in all fairness, the building they where behind went with them, so I don’t fault them. Some of them decided to offer their services to me, after their contractor received the report from the scuffle, I accepted and those guys were some of my first Knights. They helped caught the bastard that was trying to kill me""
+""I expected them to be stronger, really, they ran the moment I used my horn, in all fairness, the building they where behind went with them, so I don�t fault them. Some of them decided to offer their services to me, after their contractor received the report from the scuffle, I accepted and those guys were some of my first Knights. They helped caught the bastard that was trying to kill me""
 
 ""After that the rest of the pirates around here pleaded fealty, I even did a ceremony like back in Britain, and made them nobles, a foreign dignatary showed up with gifts and stuff, it was cool.""",,
 BMS_Ast_Loredump2.3,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"""Another one then, so back in my time, there used to be this great king of the most glorious kingdom of Africa, he asked for my help for it have been punished by the divine, I needed to catch some harpies that were terrorizing the court of such a noble man, so I got into my Hipogriff and in the name of the Lord pursued them into the mountains, until they slipped into a cave, the entrance to Hell. I rallied and went behind them""
 ""I was expecting it to be Hell,of course, because of the horrible screams and howls coming from the cavern, yet I was a bit surprised when the shadows started talking to me, I managed to leave and seal the entrance to Hell, nor Cerberus nor Satan was there, so it was easy to do even for a sinner like me. """,,
 BMS_AstSex_Frottage,DialogOptionSelected,$option == BMS_AstSex_Frottage,,"""A bit weird for foreplay, but sure"" He takes out his rapier. He looks at you for second. ""Oh, that kind of swords""
 Ast takes his time undressing himself letting you get a good look at every one of his curves and bumps, even managing a sneak peek to the size of his meat. ""Are you ready, $playerName?""",1:BMS_AstSex_Frottage_2:Undress yourself.,
-BMS_AstSex_Frottage_2,DialogOptionSelected,$option == BMS_AstSex_Frottage_2,FireAll PopulateOptions,"Ast approaches as he lets you make the first move, both of your dicks make contact, it feels a bit electric to be doing this, as you can tell Ast is as sensitive as you’re down there. You both start trying to frot up and down, as the energy starts ramping up, making both of you fall into a spiral of pleasure.
-""It feels so… intense"" Ast doesn’t even need to ask, your face tells him how you’re feeling, it’s as red as his. ""It seems you like it too""
+BMS_AstSex_Frottage_2,DialogOptionSelected,$option == BMS_AstSex_Frottage_2,FireAll PopulateOptions,"Ast approaches as he lets you make the first move, both of your dicks make contact, it feels a bit electric to be doing this, as you can tell Ast is as sensitive as you�re down there. You both start trying to frot up and down, as the energy starts ramping up, making both of you fall into a spiral of pleasure.
+""It feels so� intense"" Ast doesn�t even need to ask, your face tells him how you�re feeling, it�s as red as his. ""It seems you like it too""
 You both break and cum, making a mess out of the room.
 ""That was nice, you can come for another one, whenever you want.""",,
 ,,,,,,
@@ -116,7 +116,7 @@ $id==BMS_Ocp",,,"1:BMS_Ocp_Hi:""Make ships better?""
 2:BMS_Ocp_Hit:Hit them in the head.
 3:BMS_Ocp_Experiments: ""So what is that weird list behind you?""
 4:BMS_Ocp_TechSupport: I need some help with the mod.",
-BMS_Ocp_Hi,DialogOptionSelected,$option == BMS_Ocp_Hi,,"""I don’t know how, I am still learning""",,
+BMS_Ocp_Hi,DialogOptionSelected,$option == BMS_Ocp_Hi,,"""I don�t know how, I am still learning""",,
 BMS_Ocp_hit,DialogOptionSelected,$option == BMS_Ocp_Hit,,"""Ouch, jerk""",,
 ,,,,,,
 BMS_Ocp_Grettings,PickGreeting,"$market.id == seduveren_market
@@ -125,14 +125,14 @@ FireAll PopulateOptions ","""Hi, it is me Ocp, the Bluemoon Shipyards Designer""
 ,,,,,,
 BMS_Ocp_Experiments,DialogOptionSelected,$option == BMS_Ocp_Experiments,,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
 ""So I have some interesting tests I want to run, for it I need a volunteer"" *They take out a long and complicated contract* 
-""You don’t need to read it right? So what do you say want in? Don’t worry, I am a medical trainee"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+""You don�t need to read it right? So what do you say want in? Don�t worry, I am a medical trainee"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
 2:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
 BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant cow milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
-BMS_Ocp_Experiments_Toys2,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys2,,"They connect the machine to your crotch, and some extra tendrils to your belly and thights. You can feel the stickiness of the milker as it grabs onto you. It is slow at first just a simple tug, but it quickly spirals out into a cacophony of feelings as every tendril lets out a electrical current, making you feel all fuzzy inside~. ""That’s enough for now"" Ocp says making you feel a bit confused.",1:BMS_Ocp_Experiments_Toys3: That’s it?,
+BMS_Ocp_Experiments_Toys2,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys2,,"They connect the machine to your crotch, and some extra tendrils to your belly and thights. You can feel the stickiness of the milker as it grabs onto you. It is slow at first just a simple tug, but it quickly spirals out into a cacophony of feelings as every tendril lets out a electrical current, making you feel all fuzzy inside~. ""That�s enough for now"" Ocp says making you feel a bit confused.",1:BMS_Ocp_Experiments_Toys3: That�s it?,
 BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer, nods towards the door. ""Out of my lab, please""",,
 ,,,,,,
 ,,,,,,
-BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn’t need to do that""",,
+BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn�t need to do that""",,
 BMS_Ocp_TechSupport,DialogOptionSelected,$option == BMS_Ocp_TechSupport,,"""So I can contact the other guys and tell you want to work with them, in case you erased their numbers. Tell me who, and I will see to it."" (May cause unintended effects)","1:BMS_Ocp_TechSupport_Ast: Ast
 2:BMS_Ocp_TechSupport_Oda: Oda
 3:BMS_Ocp_TechSupport_Nobukatsu: Nobukatsu
@@ -146,41 +146,42 @@ $global.Nobukatsu_contact = false
 FireAll PopulateOptions","""Nobukatsu, Ok, it is done.""",,
 BMS_Ocp_TechSupport_Backdown,DialogOptionSelected,$option == BMS_Ocp_TechSupport_backdown,FireAll PopulateOptions,"""Sure.""",,
 ,,,,,,
-#BMS_Ocp_Zoo,DialogOptionSelected,$option == BMS_Ocp_Zoo,FireAll PopulateOptions,"""It is a new wing for the laboratory, it is intended to house some specimens from other planets, but I still don’t know which ones I want, trying to workshop it""",1:BMS_Ocp_Zoo2:Continue,
+#BMS_Ocp_Zoo,DialogOptionSelected,$option == BMS_Ocp_Zoo,FireAll PopulateOptions,"""It is a new wing for the laboratory, it is intended to house some specimens from other planets, but I still don�t know which ones I want, trying to workshop it""",1:BMS_Ocp_Zoo2:Continue,
 #BMS_Ocp_Zoo,DialogOptionSelected,$option == BMS_Ocp_Zoo2,FireAll PopulateOptions,,,
 ,,,,,,
 ,,,,,,
 #Oda,,,,,,
 BMS_Oda_Salutations,PickGreeting,"$market.id == seduveren_market
 $id==BMS_Oda","ShowPersonVisual
-FireAll PopulateOptions ","""You’re in the presence of the Glorious leader of the Oda Empire, what do you desire, mortal?""",,
+FireAll PopulateOptions ","""You�re in the presence of the Glorious leader of the Oda Empire, what do you desire, mortal?""",,
 BMS_Oda_Dialogue,PopulateOptions,"$market.id == seduveren_market
 $id==BMS_Oda",,,"
-1:BMS_Oda_Master:”Can i be your Master?”
-2:BMS_Oda_Companions: ”Ask about someone” 
-3:BMS_Oda_Plan:”How is it going?”",
+1:BMS_Oda_Master:�Can i be your Master?�
+2:BMS_Oda_Companions: �Ask about someone� 
+3:BMS_Oda_Plan:�How is it going?�",
 BMS_Oda_Companions,DialogOptionSelected,$option == BMS_Oda_Companions,,"""Oh, sure, my confidant, who has picked your interest?""","1:BMS_Oda_Companions_Ast:""Are you friends with Ast?""
 2:BMS_Oda_Companions_Nobukatsu:""About Nobukatsu""",
 ,,,,,,
-BMS_Oda_Plan_Ast,DialogOptionSelected,$option == BMS_Oda_Companions_Ast,FireAll PopulateOptions ,"""He is a good man, but he just doesn’t have the will to do what must be done, the sake of the Sector is at stake, this time I need to make sure.""",,
+BMS_Oda_Plan_Ast,DialogOptionSelected,$option == BMS_Oda_Companions_Ast,FireAll PopulateOptions ,"""He is a good man, but he just doesn�t have the will to do what must be done, the sake of the Sector is at stake, this time I need to make sure.""",,
 BMS_Oda_Plan_Nobukatsu,DialogOptionSelected,$option == BMS_Oda_Companions_Nobukatsu,FireAll PopulateOptions ,"""Right, my brother, take care of him, will you? he is a good person, just a bit clingy, retainer. He really is trying his hardest""",,
-BMS_Oda_Plan,DialogOptionSelected,$option == BMS_Oda_Plan,FireAll PopulateOptions ,"""It’s hard you know, the sector needs a someone to restore order, an there’s not a lot of people cut for the job""
+BMS_Oda_Plan,DialogOptionSelected,$option == BMS_Oda_Plan,FireAll PopulateOptions ,"""It�s hard you know, the sector needs a someone to restore order, an there�s not a lot of people cut for the job""
 
 OR
-Oda starts describing a reunion that she had with Ast a while back. ""So this guy comes up behind me and somehow, he trips and his hat goes into the soup in front of a priest, then he thinks is it as good idea to grab it back and start…"" *You hear a chuckle behind you and then feel an intense stare, Oda resumes a bit nervous* ""You know, I will tell you latter""",,
+Oda starts describing a reunion that she had with Ast a while back. ""So this guy comes up behind me and somehow, he trips and his hat goes into the soup in front of a priest, then he thinks is it as good idea to grab it back and start�"" *You hear a chuckle behind you and then feel an intense stare, Oda resumes a bit nervous* ""You know, I will tell you latter""",,
 ,,,,,,
 BMS_Oda_Dialogue_Sex,PopulateOptions,"$market.id == seduveren_market
 $id==BMS_Oda",,,"2:BMS_Oda_Sex:""Hey Shogun, want to have sex?""",
 BMS_Oda_Sex,DialogOptionSelected,$option == BMS_Oda_Sex,,"""So you want to have sex with me, certainly so retainer I will allow  it.""","1:BMS_Oda_Sex_Oral:""I guess Oral would be nice?""
 2:BMS_Oda_Sex_Thighjob: ""Maybe I can get some thigh action""
-3:BMS_Oda_Sex_retreat:""I bit more that what i can chew""",
+3:BMS_Oda_Sex_Underdesk: She seems to be thinking about something…
+4:BMS_Oda_Sex_retreat:""I bit more that what i can chew""",
 BMS_Oda_Sex_Oral,DialogOptionSelected,$option == BMS_Oda_Sex_Oral,,"You go into your shuttle as Oda sends to signal to the guards to allow you entry.
 As you make it into the planet, a disinterested Nobbu grabs your hand and pulls you towards the Washi Castle that dominates the city from orbit. The exasperated Nobbu comes with you all the way towards the inner sanctum of the structure, where Nobunaga appears and pulls into her personal room, the last thing you see is the nobbu mocking you.",1:BMS_Oda_Sex_makeout:See what she has in store,
 :BMS_Oda_Sex_retreat,DialogOptionSelected,$option == BMS_Oda_Sex_retreat,FireAll PopulateOptions,"""Retainer, cowardice is not a valor i endorse, but I will allow it""",,
 BMS_Oda_Sex_makeout,DialogOptionSelected,$option == BMS_Oda_Sex_makeout,,"Oda is resting naked in her bed. ""So Dragon, I have a good idea where I want you"" She gently pulls you towards her pussy, so you get a pretty good idea of what she wants, so you diligently carve out a spot with your tongue, ""Oh yeah that feels so right""
-You get the idea she doesn’t get to do this often, and take the opportunity to have some fun.
-You stand up by pulling her ass up with you ""What are y…Ouhh"" A simple protest stifled under the pleasure coming from her nethers. You manage to position yourself in such a way that she cannot stop you from playing with her boobs at the same time, the way she is going, it’s not going to take long for her to cum.",1:BMS_Oda_Sex_aftercare:End the party.,
-BMS_Oda_Sex_aftercare,DialogOptionSelected,$option == BMS_Oda_Sex_aftercare,,"You both burst together, her alabaster liquid filling up your mouth, and fall asleep on the bed. Maybe being friends with a murderous dictactor has it’s benefits.",1:BMS_Oda_Sex_ending:Tomorrow is a new day,
+You get the idea she doesn�t get to do this often, and take the opportunity to have some fun.
+You stand up by pulling her ass up with you ""What are y�Ouhh"" A simple protest stifled under the pleasure coming from her nethers. You manage to position yourself in such a way that she cannot stop you from playing with her boobs at the same time, the way she is going, it�s not going to take long for her to cum.",1:BMS_Oda_Sex_aftercare:End the party.,
+BMS_Oda_Sex_aftercare,DialogOptionSelected,$option == BMS_Oda_Sex_aftercare,,"You both burst together, her alabaster liquid filling up your mouth, and fall asleep on the bed. Maybe being friends with a murderous dictactor has it�s benefits.",1:BMS_Oda_Sex_ending:Tomorrow is a new day,
 BMS_Oda_Sex_ending,DialogOptionSelected,$option == BMS_Oda_Sex_ending,FireAll PopulateOptions,"You return to your space station, ready to go back to your spacer gig.",,
 ,,,,,,
 ,,,,,,
@@ -200,29 +201,47 @@ The spiral of lust, keeps going further and further, it almost looks as a compet
 You both finish, your energy spent and the juices of excitement fusing together.  ",2:BMS_Oda_Sex_Thighjobend: Continue,
 BMS_Oda_Sex_Thighjobend,DialogOptionSelected,$option == BMS_Oda_Sex_Thighjobend,FireAll PopulateOptions,"""Good one, retainer, hope you enjoyed it as much as I did, now can I go to rest, or do you desire even more?""",,
 ,,,,,,
+BMS_Oda_Sex_Underdesk,DialogOptionSelected,$option == BMS_Oda_Sex_Underdesk,,"""Want to do something adventorous? Like I want to taste you but I can’t really leave my office room, so come sit down here and I am going under for a bit, What do you say?""","1:BMS_Oda_Sex_Underdesk_yes: ""Yes""
+1:BMS_Oda_Sex_Underdesk_no: ""No""",
+BMS_Oda_Sex_Underdesk_yes,DialogOptionSelected,$option == BMS_Oda_Sex_Underdesk_yes,FireAll PopulateOptions,"""If any of the Nobbus ask tell I am busy, ok?"" You proceed to sit down, ready to get serviced, she starts by playing with your glans, rubbing and kissing your balls with care, slowly licking all over the side of your cock.
+""So nice of you to present me with such a delicious piece of meat"" She teases, as youre about to retort a Nobbu crashes throught the door carrying a portable communicator.
+""Mhnf?"" You hear beneath the desk, as you put your most innocent face.  The communicator materializes the face of Nobukatsu ""$playerName do you know where my sister is? Actually don’t worry I will just wait for her""
+Oda looks at you smirking as she sandwiches your dick between her voluptious boobs, like a pair of big pillows, really making it hard to focus on keeping the facade. So it doesnt take long for doubt to creep in ""Are you feeling, ok?"" Nobukatsu snaps you out of your bliss ""You look like you are..?"" Nobukatsu makes an angry frown ""Sister?! Man, you are disgusting."" The Nobbu jumps and runs away leaving you two alone again.
+""Got caught,eh? I am getting an earful later, well, it cant be helped""  She ramps up, abusing your dick with energy, vaccuming your creamy seed inside her, lapping up every bit of that amber cum.  ""Seems like you enjoyed it atleast""",,
+BMS_Oda_Sex_Underdesk_no,DialogOptionSelected,$option == BMS_Oda_Sex_Underdesk_no,FireAll PopulateOptions,"""Whatever""",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 #Nobukatsu,,,,,,
 BMS_Nobukatsu_Salutations,PickGreeting,"$market.id == seduveren_market
 $id==BMS_Nobukatsu","ShowPersonVisual
 FireAll PopulateOptions ","""Nobukatsu here, under the gaze of the stars, what do you want with the Oda?""",,
 BMS_Nobukatsu_Dialogue,PopulateOptions,"$market.id == seduveren_market
 $id==BMS_Nobukatsu",,,"1:BMS_Nobukatsu_Master: ""Want to be my servant?""
-2:BMS_Nobukatsu_Sex: ""So are you open to have some fun?""",
+2:BMS_Nobukatsu_Sex: ""So are you open to have some fun?""
+3:BMS_Nobukatsu_Job: ""What do you do? In the Nobu Clan""",
 BMS_Nobukatsu_Sex,DialogOptionSelected,"!$NobukatsuButtHurt
-$option == BMS_Nobukatsu_Sex",,"""Are you sure, you actually want ... me?""","1:BMS_Nobukatsu_Sex_Yes: ""Hey, you’re cute""
-2:BMS_Nobukatsu_Sex_No: ""If you’re not ready, it is ok""",
+$option == BMS_Nobukatsu_Sex",,"""Are you sure, you actually want ... me?""","1:BMS_Nobukatsu_Sex_Yes: ""Hey, youre cute""
+2:BMS_Nobukatsu_Sex_No: ""If youre not ready, it is ok""",
 BMS_Nobukatsu_SexWait,DialogOptionSelected,"$NobukatsuButtHurt
 $option == BMS_Nobukatsu_Sex",FireAll PopulateOptions,"""Give me a minute, my bum hurts""",,
 ,,,,,,
 ,,,,,,
-BMS_Nobukatsu_Sex_Yes,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_Yes,,"He blushes, his face red as a rose ""What do you want to do?""","1:BMS_Nobukatsu_Sex_ShyAnal: ""I think i will enjoy going in on you""
-2:BMS_Nobukatsu_Sex_Retreat: ""Maybe later""",
-BMS_Nobukatsu_Sex_No,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_No,FireAll PopulateOptions,"""Ok, yeah, sure maybe we can.... I don’t know""",,
+BMS_Nobukatsu_Sex_Yes,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_Yes,,"He blushes, his face red as a rose ""What do you want to do?""","1:BMS_Nobukatsu_Sex_ShyAnal: ""I think i will enjoy going inside you""
+2:BMS_Nobukatsu_Sex_NobuDom: ""Hey have you ever thought about doing something different? You know…"" 
+3:BMS_Nobukatsu_Sex_Retreat: ""Maybe later""",
+BMS_Nobukatsu_Sex_No,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_No,FireAll PopulateOptions,"""Ok, yeah, sure maybe we can.... I don�t know""",,
 BMS_Nobukatsu_Sex _ShyAnal,DialogOptionSelected,"!$FirstTimeNobukatsu
 $option == BMS_Nobukatsu_Sex_ShyAnal","$FirstTimeNobukatsu = True
-$NobukatsuButtHurt = True 1","Nobukatsu doesn’t seem to know what to do, so you take the lead and push him so he is resting on the bed facedown ""$playerName, I guess you’re up, be gentle""
+$NobukatsuButtHurt = True 1","Nobukatsu doesn�t seem to know what to do, so you take the lead and push him so he is resting on the bed facedown ""$playerName, I guess you�re up, be gentle""
 You assure him that he is in good hands ""Yeah, thanks""
-It starts slows, just the tip, as he is to tight to push even further, he whelps, a bit of encouragement, as you start chipping away at his walls. It doesn’t take that long until you manage to make him open, and start slowly making your way in. Its laborious work, but his needy sounds are a nice reward.
-As he relaxes, you up the Ante, going ever so slighty faster. ""That’s enough for now, it hurts"" Nobukatsu says.
+It starts slows, just the tip, as he is to tight to push even further, he whelps, a bit of encouragement, as you start chipping away at his walls. It doesn�t take that long until you manage to make him open, and start slowly making your way in. Its laborious work, but his needy sounds are a nice reward.
+As he relaxes, you up the Ante, going ever so slighty faster. ""That�s enough for now, it hurts"" Nobukatsu says.
 You assure that it is ok, and tell him you will come later, when he is ready. ""Thanks, I appreciate it"" he gasps in response.
 Well time to go back into space...right?",1:BMS_Nobukatsu_Sex_ShyAnal_Aftercare: Let him rest,
 BMS_Nobukatsu_Sex_Retreat,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_Retreat,FireAll PopulateOptions,"""Right sure, I can wait""",,
@@ -232,26 +251,58 @@ BMS_Nobukatsu_Sex_ShyAnal_Seconds,DialogOptionSelected,"$FirstTimeNobukatsu
 !$NobukatsuButtHurt
 $option == BMS_Nobukatsu_Sex_ShyAnal",,"You can tell Nobukatsu seems a bit more determined to push through this time.
 
-""I… I can do this"" You can hear him whisper, as he pulls you in, nuzzling up to your neck, he softly beckons you in, enticing you forward.
+""I� I can do this"" You can hear him whisper, as he pulls you in, nuzzling up to your neck, he softly beckons you in, enticing you forward.
 As you go down into him, he bumps his hat noticeably jumping up in surprise.
-""Keep going"" He doesn’t need to say it twice, you’re pounding him into the mattress like beast in rutting.
+""Keep going"" He doesn�t need to say it twice, you�re pounding him into the mattress like beast in rutting.
 His whole body is trembling under the weight of your body, yet he still refuses to let you go.
-Nobukatsu grunts loudly and releases his seed all over the bed. He is breathing heavily barely able to hold himself until he collapses with a muffled plop. It seems like you exhausted the twink’s reserves.",1:BMS_Nobukatsu_Sex_ShyAnal_Aftercare_Seconds: Let him rest,
+Nobukatsu grunts loudly and releases his seed all over the bed. He is breathing heavily barely able to hold himself until he collapses with a muffled plop. It seems like you exhausted the twink�s reserves.",1:BMS_Nobukatsu_Sex_ShyAnal_Aftercare_Seconds: Let him rest,
 BMS_Nobukatsu_Sex_ShyAnal_Seconds_Aftercare,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_ShyAnal_Aftercare_Seconds,FireAll PopulateOptions,"He tries to stretch his hand out, like trying to stop you from leaving.
 You cuddle with him for a bit, making him feel safe.",,
 ,,,,,,
 ,,,,,,
+BMS_Nobukatsu_Sex_Dom_Setup,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom,,"Nobukatsu tilts his head for a second, but he smiles. ""Wel, of course, if you want me that badly, I can certainly do something about it""
+He bodly grasps your balls, massaging your balls, getting you ready and hot for him. ""I still want you inside me"" He grins a bit flustered ""I can totally take charge this time""","1:BMS_Nobukatsu_Sex_NobuDom_Two: ""Show me what you can do.""
+2:BMS_Nobukatsu_Sex_NobuDom_Wait: ""Next time"" ",
+BMS_Nobukatsu_Sex_Dom_Payoff,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom_Two,FireAll PopulateOptions,"He stares a your eyes, with reprocicated lust, as he signals you to lay down on your back, you sneak in a pinch to his ass cheek.
+He pouts, but he looks only more determined ""Bad boy""
+Nobukatsu pushes you backwards.  You help him position on top, wrapping his legs around your hips, he starts rubbing himself agaisnt your dick, as he caresses your body, giving small kisses across it.
+
+""Your body"" He whispers between labored breaths ""It is just so nice"" Your member throbbing with desire, is trying to enter him, but a bit clumsily, he somehow manages to tease you along and keep it away.""Not yet, I want a little more""  You tell him that you really are about to burst, unable to hold it together, and he relents, finally pushing your length inside of him, making you both gasp and start furiously pushing agaisnt each other.
+
+""Yes..yes, I love it, i love how it feels inside me, I need, no, deserve more"" He moans and clams down, trying to push himself to his limits.  You hump agaisnt him, but he puts his weight down, enveloping the entirety of your dick inside him, his muscles straining trying to fill his guts with you.  You are more than willing to comply, so when you both can take it anymore, sloppily cumming in an mess of musk sweat and muscles. 
+
+""$playerName… Can we do this again"" He manages to stammer before falling asleep, utterly exhausted.",,
+BMS_Nobukatsu_Sex_Dom_Wait,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom_Wait,FireAll PopulateOptions,"""Ok… What else do you want to do then?""",,
+,,,,,,
+BMS_Nobukatsu_Job,DialogOptionSelected,$option == BMS_Nobukatsu_Job,,"""Oh, Youre interested?"" His visage noticeably shines. ""Mostly administrative work, somebody has got to make sure the Nobbu’s get stuff done"" He produces a stock of paper of about half his height ""The other factions don’t make life easy, but as long as the Nobbu’s behave it is mostly fine""  He walks towards the back of his office and opens a cabinet full of eccentricities. ""I am also in charge of dealing with obscure and esoteric stuff, even this, the really simple stuff but you cannot really find around on the sector""  You can see a container with some white slimy substance, some shining purple bottle and an exotic hat with a feather on top.","1:BMS_Nobukatsu_Job_two: ""Could I take a look at that slime?""  
+2:BMS_Nobukatsu_Job_No: ""Good to know""",
+BMS_Nobukatsu_Job_two,DialogOptionSelected,$option == BMS_Nobukatsu_Job_two,FireAll PopulateOptions,"""I mean, it is a homunculus , but sure?"" He steps forwards to get it, but the slippery container falls as he turns towards you, startling Nobukatsu and making him fall. The homunculus escapes and jumps towards his face, splashing his slime all over him, as he stands up, the little monster trips him, causing him to fall again directly into the white mass. You try your best to supress a laugh.
+""Come on, now I need to catch it"" He grabs it, but the little blob escapes between his thights dripping slowly.
+""Don’t laugh at me, this isn’t funny"" He points at you accusatorily,a bit of the slime flying off as his cute hat covers his eyes.  ""$playerName, give me a second I really should clean this up.""",,
+BMS_Nobukatsu_Job_No,DialogOptionSelected,$option == BMS_Nobukatsu_Job_No,FireAll PopulateOptions,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 BMS_Nobukatsu_Master_NotOda,DialogOptionSelected,"$option == BMS_Nobukatsu_Master
-$global.Oda_contact_nobukatsu == false",FireAll PopulateOptions,"He looks at you like you just said something wrong.""Well, You ain’t Sister’s Master so…"" He just stops talking.",,
+$global.Oda_contact_nobukatsu == false",FireAll PopulateOptions,"He looks at you like you just said something wrong.""Well, You ain�t Sister�s Master so�"" He just stops talking.",,
 BMS_Nobukatsu_Master,DialogOptionSelected,"$global.Oda_contact_nobukatsu
 $option == BMS_Nobukatsu_Master
 !$global.Nobukatsu_contact","AddPotentialContact Nobukatsu
 $global.Nobukatsu_contact = true
-FireAll PopulateOptions","""You still ain’t sister’s master, but alright, yeah sure,If you are that desesperate to work for the Oda, do go out there and work for the prestige of the Oda clan""",,
+FireAll PopulateOptions","""You still ain�t sister�s master, but alright, yeah sure,If you are that desesperate to work for the Oda, do go out there and work for the prestige of the Oda clan""",,
 BMS_Nobukatsu_Master_repeat,DialogOptionSelected,"$global.Nobukatsu_contact == true
 $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master1","$Nobukatsu_master1 = true
-FireAll PopulateOptions","""I don’t think you want someone like me as your servant, You shouldn’t care about me""",,
+FireAll PopulateOptions","""I don�t think you want someone like me as your servant, You shouldn�t care about me""",,
 BMS_Nobukatsu_Master_repeat2,DialogOptionSelected,"$Nobukatsu_master1
 $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master2","$Nobukatsu_master2 = true
@@ -263,12 +314,12 @@ FireAll PopulateOptions","""I am no good, you seem to have your crew under contr
 BMS_Nobukatsu_Master_repeat4,DialogOptionSelected,"$Nobukatsu_master3
 $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master4","$Nobukatsu_master4 = true
-FireAll PopulateOptions","""Please stop, I don’t need nor want your time, there is certainly more important things you can do, because …  it can’t be, right?"" He tries to evade your gaze, his body trembling a little.",,
+FireAll PopulateOptions","""Please stop, I don�t need nor want your time, there is certainly more important things you can do, because �  it can�t be, right?"" He tries to evade your gaze, his body trembling a little.",,
 BMS_Nobukatsu_Master_repeat5,DialogOptionSelected,"$Nobukatsu_master4
 $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master5","$Nobukatsu_master5 = true
 AdjustRepActivePerson 20
-FireAll PopulateOptions","""…""",,
+FireAll PopulateOptions","""�""",,
 BMS_Nobukatsu_Master_realization,DialogOptionSelected,"$Nobukatsu_master5
 $option == BMS_Nobukatsu_Master
 !$Nobukatsu_master6","$Nobukatsu_master6 = true
@@ -279,9 +330,23 @@ FireAll PopulateOptions","""I really cannot, Sister needs me, but I know you, yo
 ,,,,,,
 ,,,,,,
 ,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 # relationship level descriptions,,,,,,
 relLevelCooperativeOdaclan,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == oda_clan ",,"The Nobu children write cards to your address on Nobu Day, and the State has created a memorandum to honor you as a War Hero. Nobu’s on the street organize events to see your fleet battles live.",,
+$faction.id == oda_clan ",,"The Nobu children write cards to your address on Nobu Day, and the State has created a memorandum to honor you as a War Hero. Nobu�s on the street organize events to see your fleet battles live.",,
 relLevelFriendlyOdaclan,RelationshipLevelDesc,"$faction.rel == FRIENDLY
 $faction.id == oda_clan ",,"Your fanboy is relatively well-known within $theFaction, whether in person or by reputation. Most members of$theFaction  have joined together his achievements and yours, making you a hero in the eyes of the Nobu.",,
 relLevelWelcomingOdaclan,RelationshipLevelDesc,"$faction.rel == WELCOMING
@@ -293,9 +358,9 @@ $faction.id == oda_clan ",,"You're not generally well known by $faction official
 relLevelSuspiciousOdaclan,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == oda_clan ",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. You have caught more than one Nobu stealing bolts from your ships.",,
 relLevelInhospitableOdaclan,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted piñatas with your face. $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
+$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted pi�atas with your face. $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
 relLevelHostileOdaclan,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu’s have an industrial line set up for the production of pots bearing a resemblence to your second’s ass and another for bats in image of the Emperor’s Sword.",,
+$faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu�s have an industrial line set up for the production of pots bearing a resemblence to your second�s ass and another for bats in image of the Emperor�s Sword.",,
 relLevelVengefulOdaclan,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == oda_clan ",,"Once a foolish Nobu got caught writing smutty fanfic about you, he got burned at the stake, and his ashes stomped into the dirt. Nobu History nerds are stalking Nobu-pedia begging for the opportunity to change ""is"" to ""was"".",,
 ,,,,,,
@@ -325,19 +390,19 @@ $faction.id == blue_moon",,"You can find a holo of your face with clown makeup a
 ,,,,,,
 #Greetings,,,,,,
 BMS_Nobu_Greetings,PickGreeting,$faction.id == oda_clan,"ShowPersonVisual
-FireAll PopulateOptions ","""Nobbu? Nobbu… Nobbu""",,
+FireAll PopulateOptions ","""Nobbu? Nobbu� Nobbu""",,
 ,,,,,,
 #Planet Market Stuff,,,,,,
 ,,,,,,
 Bluemoon_flavorTextMarket_estoul,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == blue_moon
 $market.id == Moonial_market score:100
-$player.transponderOn == true","AddText ""Moonial’s main port is brimming with seedy and shifty indviduals, barely contained by a scrawny guard post. You take out your cargo manifest and credentials, getting throught the checkpoint. You can see some old merc veterans giving a scolding to some thugs, most of the traffic seems to go towards the habitation complex."" marketFlavorTextColor
+$player.transponderOn == true","AddText ""Moonial�s main port is brimming with seedy and shifty indviduals, barely contained by a scrawny guard post. You take out your cargo manifest and credentials, getting throught the checkpoint. You can see some old merc veterans giving a scolding to some thugs, most of the traffic seems to go towards the habitation complex."" marketFlavorTextColor
 AddText ""A holoprojector shows an ad for an opportunity in the farms of Ethoi, a tired person mans a booth handing out phamplets explaining the union benefits to anybody who approaches."" marketFlavorTextColor",,,
 Bluemoon_flavorTextMarket_estoul_Ilegal,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == blue_moon
 $market.id == Moonial_market score:100
-$player.transponderOn == false","AddText ""When the port authority detects your approach, it directs you towards the back of the comms tower, where a Knight let’s you pass and enter directly to the purple area of the market, it’s small and cramped, the smell of dry cum and sanitizer impregnates the air, and the sticky pieces of hair cover the floor."" marketFlavorTextColor",,,
+$player.transponderOn == false","AddText ""When the port authority detects your approach, it directs you towards the back of the comms tower, where a Knight let�s you pass and enter directly to the purple area of the market, it�s small and cramped, the smell of dry cum and sanitizer impregnates the air, and the sticky pieces of hair cover the floor."" marketFlavorTextColor",,,
 Bluemoon_flavorTextMarket_seduveren,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.id == seduveren_market score:100
 $player.transponderOn == true","AddText ""The Washi castle dominates the montainous lanscape of the planet, with housing and some scarse temples dotted around it, the streets are bustling with activity, the Nobus covering every inch like a tide of laborious ants."" marketFlavorTextColor
@@ -353,7 +418,7 @@ $player.transponderOn == false","AddText ""You enter the bay of a half destroyed
 ,,,,,,
 ,,,,,,
 ,,,,,,
-,,,,,,
+"#WHY ARE YOU HERE THIS IS FOR WAY LATER ON, DO THINGS THAT YOU ACTUALLY CAN RIGHT NOW.",,,,,,
 #Questy Quests,,,,,,
 # Space Octopus Mission,,,,,,
 #bluemoon_spaceoct_Blurb1,bluemoon_spaceoct_blurb,,,"""Ocp asked me to get an special animal for her, it is very very secret. No one shall see you. Simple.""",,

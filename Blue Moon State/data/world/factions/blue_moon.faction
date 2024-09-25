@@ -1,6 +1,6 @@
 {
 	id:"blue_moon",
-	"color":[0, 255, 185,255],
+		"color": [100, 255, 213,255],
 	"displayName":"Blue Moon",
 	"displayNameWithArticle":"the Blue Moon",
 	"displayNameLong":"Blue Moon Free States",
