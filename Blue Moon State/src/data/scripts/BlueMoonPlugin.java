@@ -85,6 +85,24 @@ public class BlueMoonPlugin extends BaseModPlugin {
 		phantu_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
 		phantu_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 
+		{		PersonAPI Goatboy = Global.getFactory().createPerson();
+			Goatboy.getName().setFirst("Goatboy");
+			Goatboy.getName().setLast("Goatie");
+			Goatboy.setPortraitSprite(Global.getSettings().getSpriteName("characters", "bluemoon_goatboy"));
+			Goatboy.setGender(MALE);
+			Goatboy.setFaction("blue_moon");
+			Goatboy.setImportance(LOW);
+			Goatboy.addTag("military");
+			Goatboy.setId("BMS_goatboy");
+
+			Goatboy.setRankId(GROUND_GENERAL);
+
+			Goatboy.getStats().setSkillLevel(Skills.HELMSMANSHIP, 1);
+
+			phantu_market.getCommDirectory().addPerson(Goatboy, 1);
+			phantu_market.addPerson(Goatboy);
+		}
+
 
 		PlanetAPI Bluemoon_Estoul_planet = system.addPlanet("Estoul", Bluemoon_Phantu_planet, "Estoul", "jungle", 10, 80, 700, 250);
 		Bluemoon_Estoul_planet.setFaction("blue_moon");
