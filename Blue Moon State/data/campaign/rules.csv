@@ -125,11 +125,11 @@ FireAll PopulateOptions ","""Hi, it is me Ocp, the Bluemoon Shipyards Designer""
 ,,,,,,
 BMS_Ocp_Experiments,DialogOptionSelected,$option == BMS_Ocp_Experiments,,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
 ""So I have some interesting tests I want to run, for it I need a volunteer"" *They take out a long and complicated contract* 
-""You don�t need to read it right? So what do you say want in? Don�t worry, I am a medical trainee"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+""You don�t need to read it right? So what do you say want in? Don�t worry, I am a ex-medical trainee, that did not get kicked out over inmoral behavior, i did get re-accepted by institution on a completely different area"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
 2:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
-BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant cow milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
+BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant goat milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
 BMS_Ocp_Experiments_Toys2,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys2,,"They connect the machine to your crotch, and some extra tendrils to your belly and thights. You can feel the stickiness of the milker as it grabs onto you. It is slow at first just a simple tug, but it quickly spirals out into a cacophony of feelings as every tendril lets out a electrical current, making you feel all fuzzy inside~. ""That�s enough for now"" Ocp says making you feel a bit confused.",1:BMS_Ocp_Experiments_Toys3: That�s it?,
-BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer, nods towards the door. ""Out of my lab, please""",,
+BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer nodding towards the door. ""Out of my lab, please""",,
 ,,,,,,
 ,,,,,,
 BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn�t need to do that""",,
@@ -260,7 +260,7 @@ BMS_Nobukatsu_Sex_ShyAnal_Seconds_Aftercare,DialogOptionSelected,$option == BMS_
 You cuddle with him for a bit, making him feel safe.",,
 ,,,,,,
 ,,,,,,
-BMS_Nobukatsu_Sex_Dom_Setup,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom,,"Nobukatsu tilts his head for a second, but he smiles. ""Wel, of course, if you want me that badly, I can certainly do something about it""
+BMS_Nobukatsu_Sex_Dom_Setup,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom,,"Nobukatsu tilts his head for a second, but he smiles. ""Well, of course, if you want me that badly, I can certainly do something about it""
 He bodly grasps your balls, massaging your balls, getting you ready and hot for him. ""I still want you inside me"" He grins a bit flustered ""I can totally take charge this time""","1:BMS_Nobukatsu_Sex_NobuDom_Two: ""Show me what you can do.""
 2:BMS_Nobukatsu_Sex_NobuDom_Wait: ""Next time"" ",
 BMS_Nobukatsu_Sex_Dom_Payoff,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom_Two,FireAll PopulateOptions,"He stares a your eyes, with reprocicated lust, as he signals you to lay down on your back, you sneak in a pinch to his ass cheek.
@@ -328,11 +328,16 @@ BMS_Nobukatsu_Master_thanks,DialogOptionSelected,"$Nobukatsu_master6
 $option == BMS_Nobukatsu_Master","
 FireAll PopulateOptions","""I really cannot, Sister needs me, but I know you, you will manage without me""",,
 ,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+#Goatboy,,,,,,
+BMS_goatboy_Salutations,PickGreeting,"$market.id == phantu_market
+$id==BMS_goatboy","ShowPersonVisual
+FireAll PopulateOptions ","""Yes, What do you want? $playerName"" SCENES IN PROGRESS",,
+BMS_goatboy_Dialogue,PopulateOptions,"$market.id == phantu_market
+$id==BMS_goatboy",,,"1:BMS_goatboy_player:""Why do you know who I am?""
+2:BMS_goatboy_sex:""Wanna fuck?"" ",
+BMS_goatboy_playerexplanation,DialogOptionSelected,$option == BMS_goatboy_player,FireAll PopulateOptions,"The Goatboy turns their head sideways, looking at you directly with that rectangular eye ""I know everything here."" Holds his unnerving gaze upon you. Then chuckles ""I am just taking the piss, only the same transport ships come here, so of course I would take note of a new face around here.""",,
+BMS_goatboy_sex,DialogOptionSelected,"$option == BMS_goatboy_sex
+!$global.bms_goatboy_sex_meds",FireAll PopulateOptions,"He stares at you, sniffing the air with feigned interest. ""If you are interested on knowing how a Goat fucks, then I would guide you to the brothels on Ethoi, there is a lot of them in need of a milking, so fuck off, will you?"" He sits down trying to distract himself with paperwork. Seeing as you are not fucking off, he breathes. ""It would be inmoral of me, and highly illegal, if i let you do that. My species cum is like a drug, i think, the boys on Ethoi are on some feed that makes it only taste like sugary water, so unless you know a loose morals biologist that can give you an emergency dose of don’t make me go overdrive, this is not happening.""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,

@@ -2,7 +2,7 @@
   "hullName": "War Castle",
   "hullId": "bluemoon_Nobbu_Warcastle",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/bluemoon/bluemoon_NobbuWarshipv2.png",
+  "spriteName": "graphics/ships/bluemoon/Nobbuwar_castle.png",
   "style": "MIDLINE",
   "height": 218,
   "width": 168,
@@ -19,7 +19,7 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 0,
-      "locations": [-12, 40.5]
+      "locations": [-10.5, 49.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 0,
-      "locations": [-11.5, -42]
+      "locations": [-10.5, -49.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "TURRET",
       "arc": 140,
       "angle": 0,
-      "locations": [24.5, 34.5]
+      "locations": [25, 48.5]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "TURRET",
       "arc": 140,
       "angle": 0,
-      "locations": [26, -35]
+      "locations": [25, -48.5]
     },
     {
       "id": "WS0005",
@@ -55,7 +55,7 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 145,
-      "locations": [-84.5, 30.5]
+      "locations": [-84.5, 29]
     },
     {
       "id": "WS0006",
@@ -64,25 +64,25 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": -145,
-      "locations": [-85, -30]
+      "locations": [-84.5, -31.5]
     },
     {
       "id": "WS0007",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 90,
-      "locations": [50.5, 21]
+      "arc": 82,
+      "angle": -0,
+      "locations": [37, 27]
     },
     {
       "id": "WS0008",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": -90,
-      "locations": [50.5, -21]
+      "arc": 82,
+      "angle": 0,
+      "locations": [37, -27]
     },
     {
       "id": "WS0009",
@@ -90,8 +90,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 240,
-      "angle": 90,
-      "locations": [73, 29]
+      "angle": 30,
+      "locations": [60, 32]
     },
     {
       "id": "WS0010",
@@ -99,8 +99,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 240,
-      "angle": -90,
-      "locations": [72.5, -30]
+      "angle": -30,
+      "locations": [60, -32]
     },
     {
       "id": "WS0011",
@@ -109,7 +109,7 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 0,
-      "locations": [89, -11]
+      "locations": [90, -18]
     },
     {
       "id": "WS0012",
@@ -118,7 +118,25 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 0,
-      "locations": [88.5, 12]
+      "locations": [90, 16]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-22, -1]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 82,
+      "angle": -0,
+      "locations": [47, -1]
     }
   ],
   "engineSlots": [
@@ -172,13 +190,15 @@
     }
   ],
   "bounds": [
-    -61, 72.5,
-    84, 35,
-    85, -31,
-    -65, -71,
-    -72.5, -48.5,
-    -105, -47.5,
-    -105, 45.5,
-    -70.5, 48
+    106, -7,
+    67, -52.5,
+    -56.5, -64.5,
+    -104, -49,
+    -72.5, -13.5,
+    -72.5, 13.5,
+    -104, 49,
+    -56.5, 64.5,
+    67, 52.5,
+    106, 7
   ]
 }
