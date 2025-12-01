@@ -131,8 +131,7 @@ $option == BMS_Ocp_Experiments",,"*Ocp looks at you with a such shit-eating grin
 ""So that is the preliminary deal, you’re doing this for the experience, so no pay"" ""Don�t worry, I am a ex-medical trainee, and I didn’t get kicked out over inmoral behavior, so nothing to worry about""","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
 3:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
 BMS_Ocp_Experiments_postquest,DialogOptionSelected,"$global.BMS_goatboy_questdone 
-$option == BMS_Ocp_Experiments",,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
-S","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+$option == BMS_Ocp_Experiments",,"*Ocp looks at you with a such grin, you would think they just earned the lottery*","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
 3:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
 ,,,,,,
 ,,,,,,
