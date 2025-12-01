@@ -86,8 +86,8 @@ public class BlueMoonPlugin extends BaseModPlugin {
 		phantu_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 
 		{		PersonAPI Goatboy = Global.getFactory().createPerson();
-			Goatboy.getName().setFirst("Goatboy");
-			Goatboy.getName().setLast("Goatie");
+			Goatboy.getName().setFirst("Fuca");
+			Goatboy.getName().setLast("Rivera");
 			Goatboy.setPortraitSprite(Global.getSettings().getSpriteName("characters", "bluemoon_goatboy"));
 			Goatboy.setGender(MALE);
 			Goatboy.setFaction("blue_moon");
