@@ -19,10 +19,11 @@
 		"GENERAL":2,
 	},
 	"names":{
-		"modern":2,
-		"world":2,
+		"modern":1,
+		"world":1,
 		"future":1,
-		"myth":3,
+		"myth":1,
+		"bluemoon_general":3,
 	},
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{

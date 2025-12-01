@@ -5,11 +5,12 @@ BMS_AstAskForSupplies,PopulateOptions,"$market.id == Moonial_market
 $id== BMS_Ast",,,"1:BMS_AstAskForSupplies:""Could you give me some free supplies?""",
 BMS_AstAskForSuppliesOption,DialogOptionSelected,$option == BMS_AstAskForSupplies,"AddRemoveCommodity supplies 20
 $gavePlayerFreeSupplies = true 3
-FireAll PopulateOptions","""Oh you need more, i don�t have access to the storage but I can give a bit of my personal stash. Onwards to adventure, fellow explorer.""",,
+FireAll PopulateOptions","""Oh you need more? Well, but of course, just got to put in a bit of my personal stash. To adventure, fellow explorer.""",,
 BMS_AstAskForSuppliesDenied,DialogOptionSelected,"$gavePlayerFreeSupplies
 !$gavePlayerBigLoad
-$option == BMS_AstAskForSupplies",,"""Captain, you want more? that�s greedy. Let�s see how much you want it, Come over here, i have a use for your mouth""","1:BMS_Beggingforit:�Go down into his house� 
-2:BMS_notsure:""I would rather not.""",
+$option == BMS_AstAskForSupplies",,"""Captain, you want more? that�s quite greedy. Let�s see how much you want it then.""
+""Come over here, i have a use for your mouth""","1:BMS_Beggingforit:�Go down into his house� 
+2:BMS_notsure:""I would rather not.""",This is where I am rewriting text checkpoint
 BMS_Beggingforit,DialogOptionSelected,$option == BMS_Beggingforit,"AddRemoveCommodity supplies 50
 $gavePlayerBigLoad = True 30
 $gavePlayerBigLoadfirst = true
@@ -55,20 +56,21 @@ ShowPersonVisual","As the secretary passes you over to Ast�s personal comms, y
 ",,
 BMS_Asthack,DialogOptionSelected,$option == BMS_Asthack,,"You manage to see the Grandmaster having some fun with a particularly large phallic toy, he is desperately trying hopping up and down it, his aim a bit off he falls of the bed, the toy still stuck inside him and manages to land face first onto the computer.You can see his face plasted against the camera, as it becomes red as a firework when he realizes his camera is on. You can see him scream to his subordinate and quickly to throw a towel over himself, as he shuts down the camera.","1:BMS_Astpekaboo:Wait, for him to be ready.",
 BMS_Astpekaboo,DialogOptionSelected,$option == BMS_Astpekaboo,FireAll PopulateOptions,"Ast reappears on the monitor after a bit ""Yes, Captain, at your service, what do you want?"" He seems oddly calm.",,
-BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, the Knights got angry with me the last time i got pounded by a cutie like you, it got all over the news.","1:BMS_AstSexTop:That�s fine with me.
-2:BMS_AstSex_Frottage:Maybe we can do a bit of sword-fighting.
-3:BMS_AstSex_Nop:Later.",
-BMS_AstSexTop,DialogOptionSelected,$option == BMS_AstSexTop,,"Ast makes a funny expression, a bit surprised you actually accepted that easily. ""Well then, come over here, lad, i will gladly accept this offer""
+BMS_AstSex,DialogOptionSelected,$option == BMS_AstSex,,"Sure, but I am topping, the Knights got angry with me the last time i got pounded by a cutie like you, it got all over the news.","1:BMS_AstSex_Top:That�s fine with me.
+2:BMS_AstSex_Frottage:Ast seems to have a look on his eyes.
+3:BMS_AstSex_Touchy:Maybe we can do a bit of sword-fighting.
+4:BMS_AstSex_Nop:Later.",
+BMS_AstSex_Top,DialogOptionSelected,$option == BMS_AstSex_Top,,"Ast makes a funny expression, a bit surprised you actually accepted that easily. ""Well then, come over here, lad, i will gladly accept this offer""
 Your shuttle comes down into the planet side, a young squire guards your entry into the citadel, proudly guiding the visitors to the compound. 
-Some of the guards seem to stare at you for a bit to long, but they are nevertheless bound to let you pass.",1:BMS_AstSexTop_goon:Continue.,
-BMS_AstSexTop_goon,DialogOptionSelected,$option == BMS_AstSexTop_goon,,"Ast makes a point of jumping on top of you, the moment you pass throught into the main castle, hugging you from behind ""Don�t you think it is exciting?~""
+Some of the guards seem to stare at you for a bit to long, but they are nevertheless bound to let you pass.",1:BMS_AstSex_Top_goon:Continue.,
+BMS_AstSex_Top_goon,DialogOptionSelected,$option == BMS_AstSex_Top_goon,,"Ast makes a point of jumping on top of you, the moment you pass throught into the main castle, hugging you from behind ""Don�t you think it is exciting?~""
 You can feel him prodding behind you, whispering sweet nothings, with his dick hard against your buttocks, You remark that it is bit uncomfortable walking while in such a precarious position.
 Ast tries to position himself in a more comfortable way but he ends ups slipping in. ""Shit"" You both stop for a moment, barely able to hold in a moan, Ast�s face distraught.
 You think one of squires saw you, but if they did, they didn�t react. Ast recomposes himself and pushes you forward eventually making it to his room.
 
 In which he pushes you against the bed, You can feel his length extend over your backside searching for a way into your nethers. He finally finds it, and with a heavy shove, pierces all the way in at once. ""How does that feel my little cumslut, do you like it?"" He starts drilling in in a messy and pushy manner, trying to squeeze out as much as he can out of you. ""Do you want me to touch in that way? Kinky""
-His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSexTop_goon2:Let�s end this.,
-BMS_AstSexTop_goon2,DialogOptionSelected,$option == BMS_AstSexTop_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You�re so nice"" he manages to sneak before sleep claims him. You return to your ship, content.",,
+His dick starts making your insides budge, his nuts imprinting themselves into your lower areas, churning a massive bather to reward your advances.",1:BMS_AstSex_Top_goon2:Let�s end this.,
+BMS_AstSex_Top_goon2,DialogOptionSelected,$option == BMS_AstSex_Top_goon2,FireAll PopulateOptions,"He cums hard, filling you up all the way, he kind of just rests over you for second as you both drip into sleep. ""You�re so nice"" he manages to sneak before sleep claims him. You return to your ship, content.",,
 BMS_Ast_Loredump,PopulateOptions,"$market.id == Moonial_market
 $id== BMS_Ast",,,"1:BMS_Ast_Loredump2:""So what�s your story?""",
 BMS_Ast_Loredump2.1,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll PopulateOptions,"He takes in a big long inhalation ""Ok,so you know how I am a Knight, right?, and i used to be with the Ludd guys, they kicked me out because I made contact with 3 saints from the Catholic Church, they didn�t like that, the saints gave me a ride all the way to the moon, I know it doesn�t sound that impressive, but this was before FTL, so I could grab my boi Roland�s sanity, I saved him at the end, that reminds me I should go back for mine now that we have interestellar travel, anyways so they screwed me, and I got exiled out of the core worlds""",,
@@ -82,10 +84,10 @@ BMS_Ast_Loredump2.3,DialogOptionSelected,$option == BMS_Ast_Loredump2,FireAll Po
 BMS_AstSex_Frottage,DialogOptionSelected,$option == BMS_AstSex_Frottage,,"""A bit weird for foreplay, but sure"" He takes out his rapier. He looks at you for second. ""Oh, that kind of swords""
 Ast takes his time undressing himself letting you get a good look at every one of his curves and bumps, even managing a sneak peek to the size of his meat. ""Are you ready, $playerName?""",1:BMS_AstSex_Frottage_2:Undress yourself.,
 BMS_AstSex_Frottage_2,DialogOptionSelected,$option == BMS_AstSex_Frottage_2,FireAll PopulateOptions,"Ast approaches as he lets you make the first move, both of your dicks make contact, it feels a bit electric to be doing this, as you can tell Ast is as sensitive as you�re down there. You both start trying to frot up and down, as the energy starts ramping up, making both of you fall into a spiral of pleasure.
-""It feels so� intense"" Ast doesn�t even need to ask, your face tells him how you�re feeling, it�s as red as his. ""It seems you like it too""
+""It feels so intense"" Ast doesn�t even need to ask, your face tells him how you�re feeling, it�s as red as his. ""It seems you like it too""
 You both break and cum, making a mess out of the room.
 ""That was nice, you can come for another one, whenever you want.""",,
-,,,,,,
+BMS_AstSex_Touchy,DialogOptionSelected,$option == BMS_AstSex_Touchy,FireAll PopulateOptions,"Ast suddenly stands up, laying his hands into the desk in front of him ""Youre way to much!"" He proclaims boastfully as he slides over the corner and pounces on top of you. ""So unfair, somebody as cute as you must be pampered no matter what!"" """"",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -119,17 +121,30 @@ $id==BMS_Ocp",,,"1:BMS_Ocp_Hi:""Make ships better?""
 BMS_Ocp_Hi,DialogOptionSelected,$option == BMS_Ocp_Hi,,"""I don�t know how, I am still learning""",,
 BMS_Ocp_hit,DialogOptionSelected,$option == BMS_Ocp_Hit,,"""Ouch, jerk""",,
 ,,,,,,
-BMS_Ocp_Grettings,PickGreeting,"$market.id == seduveren_market
+BMS_Ocp_Greetings,PickGreeting,"$market.id == seduveren_market
 $id==BMS_Ocp","ShowPersonVisual
 FireAll PopulateOptions ","""Hi, it is me Ocp, the Bluemoon Shipyards Designer""",,
 ,,,,,,
-BMS_Ocp_Experiments,DialogOptionSelected,$option == BMS_Ocp_Experiments,,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
-""So I have some interesting tests I want to run, for it I need a volunteer"" *They take out a long and complicated contract* 
-""You don�t need to read it right? So what do you say want in? Don�t worry, I am a medical trainee"" ","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
-2:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
-BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant cow milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
+BMS_Ocp_Experiments,DialogOptionSelected,"!$global.BMS_goatboy_questdone 
+$option == BMS_Ocp_Experiments",,"*Ocp looks at you with a such shit-eating grin, you would think they just earned the lottery*
+""So I have a few interesting tests I want to run, so I would heavily like to have a willing volunteer"" *They take out a large stack paper stretching over their own head, quickly reading over the terms and conditions* 
+""So that is the preliminary deal, you’re doing this for the experience, so no pay"" ""Don�t worry, I am a ex-medical trainee, and I didn’t get kicked out over inmoral behavior, so nothing to worry about""","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+3:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
+BMS_Ocp_Experiments_postquest,DialogOptionSelected,"$global.BMS_goatboy_questdone 
+$option == BMS_Ocp_Experiments",,"*Ocp looks at you with a such grin, you would think they just earned the lottery*
+S","1:BMS_Ocp_Experiments_Toys: What could go wrong with some mechanical action?
+3:BMS_Ocp_Experiments_LegKick: Leg Kick and run!",
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+BMS_Ocp_Experiments_Toys,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys,,"Ocp takes out a massive mechanical cube with some gears and electrical wiring loose, that almost distracts you from the fact it has a giant goat milker attached to one side. ""Just a bit of overstimulation, right? Nothing bad is going to happen""",1:BMS_Ocp_Experiments_Toys2: I guess?,
 BMS_Ocp_Experiments_Toys2,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys2,,"They connect the machine to your crotch, and some extra tendrils to your belly and thights. You can feel the stickiness of the milker as it grabs onto you. It is slow at first just a simple tug, but it quickly spirals out into a cacophony of feelings as every tendril lets out a electrical current, making you feel all fuzzy inside~. ""That�s enough for now"" Ocp says making you feel a bit confused.",1:BMS_Ocp_Experiments_Toys3: That�s it?,
-BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer, nods towards the door. ""Out of my lab, please""",,
+BMS_Ocp_Experiments_Toys3,DialogOptionSelected,$option == BMS_Ocp_Experiments_Toys3,FireAll PopulateOptions,"""For now, I gotta do something else for now"" The supposed engineer nodding towards the door. ""Out of my lab, please""",,
 ,,,,,,
 ,,,,,,
 BMS_Ocp_Experiments_LegKick,DialogOptionSelected,$option == BMS_Ocp_Experiments_LegKick,FireAll PopulateOptions,"""Damn, you didn�t need to do that""",,
@@ -148,6 +163,19 @@ BMS_Ocp_TechSupport_Backdown,DialogOptionSelected,$option == BMS_Ocp_TechSupport
 ,,,,,,
 #BMS_Ocp_Zoo,DialogOptionSelected,$option == BMS_Ocp_Zoo,FireAll PopulateOptions,"""It is a new wing for the laboratory, it is intended to house some specimens from other planets, but I still don�t know which ones I want, trying to workshop it""",1:BMS_Ocp_Zoo2:Continue,
 #BMS_Ocp_Zoo,DialogOptionSelected,$option == BMS_Ocp_Zoo2,FireAll PopulateOptions,,,
+BMS_Ocp_Experiments_Milk,DialogOptionSelected,"$global.BMS_goatboy_queststarted
+!$global.BMS_goatboy_questdone
+!$global.BMS_goatboy_sex_meds
+!$global.BMS_goatboy_sex_meds_consumed
+$option == BMS_Ocp_Experiments",,"""So I heard you where looking for somebody capable of doing a little bit of toxicology"" *Ocp pulls out his notebook* ""So I am the lead (only) researcher of the Goat hybrid’s proyect, so as long as you are willing to test a concoction, I can probably do that thing you want"" *Ocp takes out a flask with a bubbling purple-colored chemical* ""You’re not the first to take it, but that subject is a magical being, so i want to test on a more common bio-makeup""
+""So, are you in?""","1:BMS_Ocp_Experiments_Milk_yes: Yes
+2:BMS_Ocp_Experiments_Milk_no: Give me a second to think…",
+BMS_Ocp_Experiments_Milk_yes,DialogOptionSelected,$option == BMS_Ocp_Experiments_Milk_yes,"$global.BMS_goatboy_sex_meds_consumed = true
+$global.BMS_goatboy_questdone = true
+FireAll PopulateOptions","*You gulp down the drink, it is potent and tastes like a lemon* ""Rather simple, don’t you think""",,
+BMS_Ocp_Experiments_Milk_no,DialogOptionSelected,$option == BMS_Ocp_Experiments_Milk_no,FireAll PopulateOptions,"*They recoil and look somewhere else in disarray* ""Yeah, if you get the urge just talk to me, and I will get it to you""",,
+,,,,,,
+,,,,,,
 ,,,,,,
 ,,,,,,
 #Oda,,,,,,
@@ -260,7 +288,7 @@ BMS_Nobukatsu_Sex_ShyAnal_Seconds_Aftercare,DialogOptionSelected,$option == BMS_
 You cuddle with him for a bit, making him feel safe.",,
 ,,,,,,
 ,,,,,,
-BMS_Nobukatsu_Sex_Dom_Setup,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom,,"Nobukatsu tilts his head for a second, but he smiles. ""Wel, of course, if you want me that badly, I can certainly do something about it""
+BMS_Nobukatsu_Sex_Dom_Setup,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom,,"Nobukatsu tilts his head for a second, but he smiles. ""Well, of course, if you want me that badly, I can certainly do something about it""
 He bodly grasps your balls, massaging your balls, getting you ready and hot for him. ""I still want you inside me"" He grins a bit flustered ""I can totally take charge this time""","1:BMS_Nobukatsu_Sex_NobuDom_Two: ""Show me what you can do.""
 2:BMS_Nobukatsu_Sex_NobuDom_Wait: ""Next time"" ",
 BMS_Nobukatsu_Sex_Dom_Payoff,DialogOptionSelected,$option == BMS_Nobukatsu_Sex_NobuDom_Two,FireAll PopulateOptions,"He stares a your eyes, with reprocicated lust, as he signals you to lay down on your back, you sneak in a pinch to his ass cheek.
@@ -328,15 +356,30 @@ BMS_Nobukatsu_Master_thanks,DialogOptionSelected,"$Nobukatsu_master6
 $option == BMS_Nobukatsu_Master","
 FireAll PopulateOptions","""I really cannot, Sister needs me, but I know you, you will manage without me""",,
 ,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+#Goatboy,,,,,,
+BMS_goatboy_Salutations,PickGreeting,"$market.id == phantu_market
+$id==BMS_goatboy","ShowPersonVisual
+FireAll PopulateOptions ","""Yes, What do you want? $playerName""",,
+BMS_goatboy_Dialogue,PopulateOptions,"$market.id == phantu_market
+$id==BMS_goatboy",,,"1:BMS_goatboy_player:""Why do you know who I am?""
+2:BMS_goatboy_sex:""Wanna fuck?"" ",
+BMS_goatboy_playerexplanation,DialogOptionSelected,$option == BMS_goatboy_player,FireAll PopulateOptions,"The Goatboy turns their head sideways, looking at you directly with that rectangular eye ""I know everything here."" Holds his unnerving gaze upon you. Then chuckles ""I am just taking the piss, only the same transport ships come here, so of course I would take note of a new face around here.""",,
+BMS_goatboy_sex,DialogOptionSelected,"!$global.bms_goatboy_sex_meds
+!$global.BMS_goatboy_questdone
+$option == BMS_goatboy_sex","$global.BMS_goatboy_queststarted = true
+FireAll PopulateOptions","He stares at you, sniffing the air with feigned interest. ""If you are interested on knowing how a Goat fucks, then I would guide you to the brothels on Ethoi, there is a lot of them in need of a milking, so fuck off, will you?"" He sits down trying to distract himself with paperwork. Seeing as you are not fucking off, he breathes. ""It would be inmoral of me, and highly illegal, if i let you do that. My species cum is like a drug, i think, the boys on Ethoi are on some feed that makes it only taste like sugary water, so unless you know a loose morals biologist that can give you an emergency dose of don’t make me go overdrive, this is not happening.""",,
+BMS_goatboy_sex_solution,DialogOptionSelected,"!$global.BMS_goatboy_ready
+$global.BMS_goatboy_questdone
+$global.BMS_goatboy_sex_meds_consumed == true
+$option == BMS_goatboy_sex","$global.BMS_goatboy_ready = true
+FireAll PopulateOptions","*He frowns, slowly breathing in and then letting it go, staring into your eyes* ""You just have that look on you, did exactly what i didn’t want you to do, is this a bit or something? Or do you just like being a dumbass"" *To his own chagrin he pitches a substantial tent*",,
+BMS_goatboy_sex_menu,DialogOptionSelected,"$global.BMS_goatboy_ready
+$option == BMS_goatboy_sex",,"""Come on then"" *He pats his lap, making you sit inbetween his legs* ""Nice"" *He sniffs your hair, running his snout over your head softly*",1:BMS_goatboy_sex1: Entice him into taking charge,
+BMS_goatboy_sex_menu1,DialogOptionSelected,$option == BMS_goatboy_sex1,FireAll PopulateOptions,"*You get frisky and bounce a bit on him teasing him just enough to make him struggle, feeling his hard-on as he tries hide the need hump you* ""Oh, so you want it that way""
+*Feca pulls you up, pushing you to the window overseeing the mine operations on the ground, just putting his whole * ""Well then!""
+*The Goatboy grabs one of your arms and holds the back of your head, he is quite controlled and yet you’re feeling way too heated by him* ""Those are"" *He says as he grabs a bit of his pre-cum and rubs it on your face* ""the aprodisiacs""
+*He pulls away, leaving your internal fire going like a star explosion, making your knees buckle under you* ""Sorry, probably should let you get comfortable with it, before going for more""",,
+#BMS_goatboy_sex_menu2,DialogOptionSelected,$option == BMS_goatboy_sex2,FireAll PopulateOptions,Pheromines,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -346,52 +389,52 @@ FireAll PopulateOptions","""I really cannot, Sister needs me, but I know you, yo
 ,,,,,,
 # relationship level descriptions,,,,,,
 relLevelCooperativeOdaclan,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == oda_clan ",,"The Nobu children write cards to your address on Nobu Day, and the State has created a memorandum to honor you as a War Hero. Nobu�s on the street organize events to see your fleet battles live.",,
+$faction.id == oda_clan ",,,,
 relLevelFriendlyOdaclan,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == oda_clan ",,"Your fanboy is relatively well-known within $theFaction, whether in person or by reputation. Most members of$theFaction  have joined together his achievements and yours, making you a hero in the eyes of the Nobu.",,
+$faction.id == oda_clan ",,"The Nobu children write cards to your address on Nobu Day, and the State has created a memorandum to honor you as a War Hero. Nobu�s on the street organize events to see your fleet battles live.",,
 relLevelWelcomingOdaclan,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == oda_clan ",,"A young $theFaction officer has taken a liking to you, making modifications to his nobu cosplay to be closer to your image. It makes sure that patrol commanders are not sure whenever it is you or the fanboy.",,
+$faction.id == oda_clan ",,"Your fanboy is relatively well-known within $theFaction, whether in person or by reputation. Most members of$theFaction  have joined together his achievements and yours, making you a hero in the eyes of the Nobu.",,
 relLevelFavorableOdaclan,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == oda_clan ",,"The $faction Nobu have started talking about your value as a reliable asset, some of them are willing to give you some extra leeway on the loot distrbution.This shows mostly as low-grade surplus military equipment, and pinning your crimes on a rival Nobu.",,
+$faction.id == oda_clan ",,"A young $theFaction officer has taken a liking to you, making modifications to his nobu cosplay to be closer to your image. It makes sure that patrol commanders are not sure whenever it is you or the fanboy.",,
 relLevelNeutralOdaclan,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == oda_clan ",,"You're not generally well known by $faction officials, for good or ill, nobu make caricatures of your face to use in comics, just like with every other spacer.",,
+$faction.id == oda_clan ",,"The $faction Nobu have started talking about your value as a reliable asset, some of them are willing to give you some extra leeway on the loot distrbution.This shows mostly as low-grade surplus military equipment, and pinning your crimes on a rival Nobu.",,
 relLevelSuspiciousOdaclan,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == oda_clan ",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. You have caught more than one Nobu stealing bolts from your ships.",,
+$faction.id == oda_clan ",,"You're not generally well known by $faction officials, for good or ill, nobu make caricatures of your face to use in comics, just like with every other spacer.",,
 relLevelInhospitableOdaclan,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted pi�atas with your face. $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
+$faction.id == oda_clan ",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust. You have caught more than one Nobu stealing bolts from your ships.",,
 relLevelHostileOdaclan,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu�s have an industrial line set up for the production of pots bearing a resemblence to your second�s ass and another for bats in image of the Emperor�s Sword.",,
+$faction.id == oda_clan ",,"Suspicions have risen to an actionable level. Nobus sneer and joke at your expense, some of the more spiteful ones make hand-crafted pi�atas with your face. $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans.",,
 relLevelVengefulOdaclan,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == oda_clan ",,"Once a foolish Nobu got caught writing smutty fanfic about you, he got burned at the stake, and his ashes stomped into the dirt. Nobu History nerds are stalking Nobu-pedia begging for the opportunity to change ""is"" to ""was"".",,
-,,,,,,
+$faction.id == oda_clan ",,"$Faction commanders have authorization to engage your fleet on sight, Nobu�s have an industrial line set up for the production of pots bearing a resemblence to your second�s ass and another for bats in image of the Emperor�s Sword.",,
+,,,,"Once a foolish Nobu got caught writing smutty fanfic about you, he got burned at the stake, and his ashes stomped into the dirt. Nobu History nerds are stalking Nobu-pedia begging for the opportunity to change ""is"" to ""was"".",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
 # relationship level descriptions,,,,,,
 relLevelCooperativeBluemoon,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == blue_moon",,"You are known by the Order Grandmaster itself,  $theFaction recognizes you as a charitable soul, high-level officials are looking to network with a condecorated hero of the States. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",,
+$faction.id == blue_moon",,,,
 relLevelFriendlyBluemoon,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == blue_moon",,"You're relatively well-known within $theFaction, whether in person or by reputation. Most members of the Order will come to your aid, as a fellow spacer.",,
+$faction.id == blue_moon",,"You are known by the Order Grandmaster itself,  $theFaction recognizes you as a charitable soul, high-level officials are looking to network with a condecorated hero of the States. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",,
 relLevelWelcomingBluemoon,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == blue_moon",,"You have a benefactor in $theFaction, seeing how much you have done in their stead. Harassing you is therefore a more risky endeavor for local patrol commanders.",,
+$faction.id == blue_moon",,"You're relatively well-known within $theFaction, whether in person or by reputation. Most members of the Order will come to your aid, as a fellow spacer.",,
 relLevelFavorableBluemoon,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == blue_moon",,"You have a benefactor in $theFaction, seeing how much you have done in their stead. Harassing you is therefore a more risky endeavor for local patrol commanders.",,
+relLevelNeutralBluemoon,RelationshipLevelDesc,"$faction.rel == NEUTRAL
 $faction.id == blue_moon",,"The $faction officials tend to view you favorably, though this has little in the way of implications. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.
 Your kit was upgraded with a cute plushie of a Hypogriff.",,
-relLevelNeutralBluemoon,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == blue_moon",,"You're are a unknown in $faction system, yet you recieve the standart starfarer support kit from the knights HQ, it come with a Gila monster Decal.",,
 relLevelSuspiciousBluemoon,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == blue_moon",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust.Some drunk knights make an unsavory comments, on top of a mean comparison with an Iguana.",,
+$faction.id == blue_moon",,"You're are a unknown in $faction system, yet you recieve the standart starfarer support kit from the knights HQ, it come with a Gila monster Decal.",,
 relLevelInhospitableBluemoon,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == blue_moon",,"Suspicions have risen to an actionable level. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans, you slinky-like iguana.",,
+$faction.id == blue_moon",,"Though nothing has been proven (yet), $faction officials tend to view you with distrust.Some drunk knights make an unsavory comments, on top of a mean comparison with an Iguana.",,
 relLevelHostileBluemoon,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == blue_moon",,"$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. The Knights have posted a caution phamplet for travelers with your face and name in bold red.",,
+$faction.id == blue_moon",,"Suspicions have risen to an actionable level. The Knights are keeping a good eye on you, $faction ports will be closed to your ilk, and patrols look to prevent your mischievious plans, you slinky-like iguana.",,
 relLevelVengefulBluemoon,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == blue_moon",,"You can find a holo of your face with clown makeup and somebody giving you a wedgie in almost every planet, doctored for sure. Ast has actually taken note of much of a jerk you are, so he is a bit dissapointed. The Order has a private betting ring going for who gets your head.",,
-,,,,,,
+$faction.id == blue_moon",,"$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. The Knights have posted a caution phamplet for travelers with your face and name in bold red.",,
+,,,,"You can find a holo of your face with clown makeup and somebody giving you a wedgie in almost every planet, doctored for sure. Ast has actually taken note of much of a jerk you are, so he is a bit dissapointed. The Order has a private betting ring going for who gets your head.",,
 #Greetings,,,,,,
 BMS_Nobu_Greetings,PickGreeting,$faction.id == oda_clan,"ShowPersonVisual
-FireAll PopulateOptions ","""Nobbu? Nobbu� Nobbu""",,
-,,,,,,
+FireAll PopulateOptions ",,,
+,,,,"""Nobbu? Nobbu� Nobbu""",,
 #Planet Market Stuff,,,,,,
 ,,,,,,
 Bluemoon_flavorTextMarket_estoul,TradePanelFlavorText,"$global.tradePanelMode == MARKET
@@ -421,36 +464,37 @@ $player.transponderOn == false","AddText ""You enter the bay of a half destroyed
 "#WHY ARE YOU HERE THIS IS FOR WAY LATER ON, DO THINGS THAT YOU ACTUALLY CAN RIGHT NOW.",,,,,,
 #Questy Quests,,,,,,
 # Space Octopus Mission,,,,,,
-#bluemoon_spaceoct_Blurb1,bluemoon_spaceoct_blurb,,,"""Ocp asked me to get an special animal for her, it is very very secret. No one shall see you. Simple.""",,
-#bluemoon_spaceoct_OfferOption1,bluemoon_spaceoct_option,,,,bluemoon_spaceoct_start:Ask about catching this curious animal,
-#bluemoon_spaceoct_BlurbBar1,bluemoon_spaceoct_blurbBar,,,"At the end of the bar, a rakish $bluemoon_spaceoct_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps.",,
-#bluemoon_spaceoct_OfferOptionBar1,bluemoon_spaceoct_optionBar,,,,bluemoon_spaceoct_startBar:Find out what the rakish $bluemoon_spaceoct_manOrWoman at the end of the bar is up to,
+#bluemoon_spaceoct_Blurb1,bluemoon_spaceoct_blurb,,,,,
+#bluemoon_spaceoct_OfferOption1,bluemoon_spaceoct_option,,,"""Ocp asked me to get an special animal for her, it is very very secret. No one shall see you. Simple.""",bluemoon_spaceoct_start:Ask about catching this curious animal,
+#bluemoon_spaceoct_BlurbBar1,bluemoon_spaceoct_blurbBar,,,,,
+#bluemoon_spaceoct_OfferOptionBar1,bluemoon_spaceoct_optionBar,,,"At the end of the bar, a rakish $bluemoon_spaceoct_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps.",bluemoon_spaceoct_startBar:Find out what the rakish $bluemoon_spaceoct_manOrWoman at the end of the bar is up to,
 #bluemoon_spaceoct_OfferTextBar1,DialogOptionSelected,$option == bluemoon_spaceoct_startBar,"$missionId = bluemoon_spaceoct_mission
+Highlight $bluemoon_spaceoct_dist $bluemoon_spaceoct_reward
+Call $bluemoon_spaceoct_ref showMap ""Destination: $bluemoon_spaceoct_systemName""",,"contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+#bluemoon_spaceoct_OfferTextContact1,DialogOptionSelected,$option == bluemoon_spaceoct_start,"$missionId = bluemoon_spaceoct
 Highlight $bluemoon_spaceoct_dist $bluemoon_spaceoct_reward
 Call $bluemoon_spaceoct_ref showMap ""Destination: $bluemoon_spaceoct_systemName""","The $bluemoon_spaceoct_manOrWoman watches your approach. ""You want in on the business, that right?"" $heOrShe says, amused at your audacity.
 
 ""Let me give you a job so easy that any rad-addled spacer could manage it. But,"" $heOrShe shrugs regretfully, ""It's a real shame how many of 'em just can't follow instructions and end up getting tossed out an airlock."" $HeOrShe laughs like this is a good joke.
 
-""Deliver the item to the specified location in $bluemoon_spaceoct_systemName, bluemoon_spaceoct_dist light years away."" $HeOrShe flips a TriPad out of $hisOrHer coat. The display shows $bluemoon_spaceoct_aOrAnThing. ""This is it. The reward is $bluemoon_spaceoct_reward credits. Don't be seen making the drop, and don't tell anyone about it.""","contact_acceptBar:Accept
-contact_declineBarNoContinue:Decline",
-#bluemoon_spaceoct_OfferTextContact1,DialogOptionSelected,$option == bluemoon_spaceoct_start,"$missionId = bluemoon_spaceoct
-Highlight $bluemoon_spaceoct_dist $bluemoon_spaceoct_reward
-Call $bluemoon_spaceoct_ref showMap ""Destination: $bluemoon_spaceoct_systemName""","$PersonName looks you over silently for a moment, then nods, seemingly satisfied.
+""Deliver the item to the specified location in $bluemoon_spaceoct_systemName, bluemoon_spaceoct_dist light years away."" $HeOrShe flips a TriPad out of $hisOrHer coat. The display shows $bluemoon_spaceoct_aOrAnThing. ""This is it. The reward is $bluemoon_spaceoct_reward credits. Don't be seen making the drop, and don't tell anyone about it.""","contact_accept:Accept
+contact_decline:Decline",
+# space octopus - node interaction,,,,"$PersonName looks you over silently for a moment, then nods, seemingly satisfied.
 
 ""I don't want any questions, it's a simple task. Deliver this item to the specified location in $bluemoon_spaceoct_systemName bluemoon_spaceoct_dist light-years away. Don't be seen making the drop, and don't tell anyone about it. The reward bluemoon_spaceoct_reward credits."" $HeOrShe taps at $hisOrHer datapad and your display is overlaid with bluemoon_spaceoct_aOrAnThing. 
 
-""That is all there is to it. Do you accept my terms?""","contact_accept:Accept
-contact_decline:Decline",
-# space octopus - node interaction,,,,,,
+""That is all there is to it. Do you accept my terms?""",,
 #bluemoon_spaceoct_PrintHostilesText,OpenInteractionDialog,"$bluemoon_spaceoct_target score:1000
 IsSeenByAnyFleet
-Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, and dropping off the item at the specified location is extremely inadvisable.",defaultLeave:Leave,
+Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,,defaultLeave:Leave,
 #bluemoon_spaceoct_ObjectInteraction,OpenInteractionDialog,"$bluemoon_spaceoct_target score:1000
-Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,"Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $bluemoon_spaceoct_personName. The $bluemoon_spaceoct_bait is held gently in a cargo drone's manipulator arms, ready for deployment.
-
-The go-button flashes softly on your command interface.","bluemoon_spaceoct_scan:Drop it off in a stable orbit
+Call $bluemoon_spaceoct_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, and dropping off the item at the specified location is extremely inadvisable.","bluemoon_spaceoct_scan:Drop it off in a stable orbit
 defaultLeave:Leave",
 #bluemoon_spaceoct_ObjectScan,DialogOptionSelected,$option == bluemoon_spaceoct_scan,"$bluemoon_spaceoct_completed = true
-Call $bluemoon_spaceoct_ref updateStage","The bay doors open, and the cargo drone extends its arms. Then, gently, its manipulators release.
+Call $bluemoon_spaceoct_ref updateStage","Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $bluemoon_spaceoct_personName. The $bluemoon_spaceoct_bait is held gently in a cargo drone's manipulator arms, ready for deployment.
 
-It is now done. Whatever 'it' is.",defaultLeave:Leave,
+The go-button flashes softly on your command interface.",defaultLeave:Leave,
+,,,,"The bay doors open, and the cargo drone extends its arms. Then, gently, its manipulators release.
+
+It is now done. Whatever 'it' is.",,
