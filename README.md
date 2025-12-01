@@ -72,3 +72,7 @@ Actually fixed the Id's this time, now they can actually use the factional ships
 0.0.6.3
 
 Adds two scenes, and a little bit of fluff to Oda and Nobukatsu
+
+0.0.7.0
+
+Dialogue changes, Sprite changes and one new character with a scenes
